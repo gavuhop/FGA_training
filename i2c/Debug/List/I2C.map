@@ -1,0 +1,184 @@
+###############################################################################
+#
+# IAR ELF Linker V3.10.1.201 for STM8                     18/Jul/2019  15:37:03
+# Copyright 2010-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Exe\I2C.out
+#    Map file     =  
+#        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\List\I2C.map
+#    Command line =  
+#        -f C:\Users\VietTV1\AppData\Local\Temp\EW2399.tmp
+#        (C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj\main.o --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb -o
+#        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Exe\I2C.out --map
+#        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\List\I2C.map --config
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.0\stm8\config\lnkstm8.icf" --config_def _CSTACK_SIZE=0x100
+#        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__code_model               = small
+__core                     = stm8
+__data_model               = medium
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__rt_version               = 4
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at start of [0x000000-0x0000ff] { rw section .vregs };
+"A1":  place at end of [0x000000-0x0017ff] { block CSTACK };
+"A2":  place at start of [0x008000-0x00ffff] { block INTVEC };
+"P3":  place in [from 0x008000 to 0x00ffff] {
+          ro section .far.data_init, ro section .far_func.textrw_init,
+          ro section .huge.data_init, ro section .huge_func.textrw_init,
+          ro section .iar.init_table, ro section .init_array,
+          ro section .near.data_init, ro section .near.rodata,
+          ro section .near_func.text, ro section .near_func.textrw_init,
+          ro section .tiny.data_init, ro section .tiny.rodata_init };
+do not initialize {
+   rw section .far.noinit, rw section .huge.noinit, rw section .near.noinit,
+   rw section .tiny.noinit, rw section .vregs };
+
+  Section          Kind      Address   Size  Object
+  -------          ----      -------   ----  ------
+"A0":                                   0xc
+  .vregs           uninit   0x000000    0xc  vregs.o [4]
+                          - 0x00000c    0xc
+
+"A1":                                 0x100
+  CSTACK                    0x001700  0x100  <Block>
+    CSTACK         uninit   0x001700  0x100  <Block tail>
+                          - 0x001800  0x100
+
+"A2":                                  0x80
+  INTVEC                    0x008000   0x80  <Block>
+    .intvec        const    0x008000   0x80  interrupt.o [4]
+                          - 0x008080   0x80
+
+"P3":                                  0x71
+  .near_func.text  ro code  0x008080   0x18  vreg_util.o [4]
+  .near_func.text  ro code  0x008098   0x14  init.o [4]
+  .near_func.text  ro code  0x0080ac   0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x0080c0   0x13  cstartup.o [4]
+  .near_func.text  ro code  0x0080d3    0xc  main.o [1]
+  .near_func.text  ro code  0x0080df    0x5  cexit.o [4]
+  .near_func.text  ro code  0x0080e4    0x3  interrupt.o [4]
+  .near_func.text  ro code  0x0080e7    0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x0080ea    0x3  exit.o [4]
+  .near_func.text  ro code  0x0080ed    0x3  unhandled_exception.o [4]
+  .near_func.text  ro code  0x0080f0    0x1  __dbg_break.o [3]
+                          - 0x0080f1   0x71
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj: [1]
+    main.o                      12
+    ------------------------------------------------
+    Total:                      12
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dbgstm8smd.a: [3]
+    __dbg_break.o                1
+    __dbg_xxexit.o              20
+    ------------------------------------------------
+    Total:                      21
+
+dlstm8smn.a: [4]
+    cexit.o                      5
+    cstartup.o                  19
+    exit.o                       3
+    init.o                      20
+    interrupt.o                  3      128
+    low_level_init.o             3
+    unhandled_exception.o        3
+    vreg_util.o                 24
+    vregs.o                                       12
+    ------------------------------------------------
+    Total:                      80      128       12
+
+    Linker created                               256
+----------------------------------------------------
+    Grand Total:               113      128      268
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address  Size  Type      Object
+-----                    -------  ----  ----      ------
+?b0                     0x000000        Data  Gb  vregs.o [4]
+?b1                     0x000001        Data  Gb  vregs.o [4]
+?b10                    0x00000a        Data  Gb  vregs.o [4]
+?b11                    0x00000b        Data  Gb  vregs.o [4]
+?b2                     0x000002        Data  Gb  vregs.o [4]
+?b3                     0x000003        Data  Gb  vregs.o [4]
+?b4                     0x000004        Data  Gb  vregs.o [4]
+?b5                     0x000005        Data  Gb  vregs.o [4]
+?b6                     0x000006        Data  Gb  vregs.o [4]
+?b7                     0x000007        Data  Gb  vregs.o [4]
+?b8                     0x000008        Data  Gb  vregs.o [4]
+?b9                     0x000009        Data  Gb  vregs.o [4]
+?e0                     0x000001        Data  Gb  vregs.o [4]
+?e1                     0x000005        Data  Gb  vregs.o [4]
+?e2                     0x000009        Data  Gb  vregs.o [4]
+?l0                     0x000000        Data  Gb  vregs.o [4]
+?l1                     0x000004        Data  Gb  vregs.o [4]
+?l2                     0x000008        Data  Gb  vregs.o [4]
+?push_w4                0x008080        Code  Gb  vreg_util.o [4]
+?w0                     0x000000        Data  Gb  vregs.o [4]
+?w1                     0x000002        Data  Gb  vregs.o [4]
+?w2                     0x000004        Data  Gb  vregs.o [4]
+?w3                     0x000006        Data  Gb  vregs.o [4]
+?w4                     0x000008        Data  Gb  vregs.o [4]
+?w5                     0x00000a        Data  Gb  vregs.o [4]
+CSTACK$$Base            0x001700         --   Gb  - Linker created -
+CSTACK$$Limit           0x001800         --   Gb  - Linker created -
+INTVEC$$Base            0x008000         --   Gb  - Linker created -
+INTVEC$$Limit           0x008080         --   Gb  - Linker created -
+Region$$Table$$Base   0x00000000         --   Gb  - Linker created -
+Region$$Table$$Limit  0x00000000         --   Gb  - Linker created -
+__DebugBreak            0x0080f0   0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x0080ac  0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_data_init2        0x008098  0x14  Code  Gb  init.o [4]
+__iar_program_start     0x0080c0        Code  Gb  cstartup.o [4]
+__iar_unhandled_exception
+                        0x0080ed        Code  Gb  unhandled_exception.o [4]
+__intvec                0x008000        Data  Gb  interrupt.o [4]
+__low_level_init        0x0080e7   0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x0080df        Code  Gb  cexit.o [4]
+exit                    0x0080ea   0x3  Code  Gb  exit.o [4]
+main                    0x0080d3   0xc  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj
+[2] = command line
+[3] = dbgstm8smd.a
+[4] = dlstm8smn.a
+
+  113 bytes of readonly  code memory
+  128 bytes of readonly  data memory
+  268 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
