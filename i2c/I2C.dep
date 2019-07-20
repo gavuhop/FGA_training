@@ -18,11 +18,11 @@
             <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\I2C.pbd</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\Lib\I2C.h</file>
-            <file>$PROJ_DIR$\Lib\GPIO.h</file>
+            <file>$PROJ_DIR$\lib\I2C.h</file>
+            <file>$PROJ_DIR$\lib\GPIO.h</file>
             <file>$PROJ_DIR$\Debug\Exe\I2C.out</file>
             <file>$PROJ_DIR$\Debug\List\I2C.map</file>
-            <file>$PROJ_DIR$\Lib\CLOCK.h</file>
+            <file>$PROJ_DIR$\lib\CLOCK.h</file>
             <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
             <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
