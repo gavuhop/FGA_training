@@ -74,7 +74,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 16 15</file>
+                    <file> 15 16</file>
                 </tool>
             </outputs>
         </file>
