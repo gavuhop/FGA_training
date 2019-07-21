@@ -1,5 +1,5 @@
 #ifndef CLOCK
-//#define CLOCK
+#define CLOCK
 #include <stdint.h>
 //CLK_DIVR_TYPE
 //Reserved        CKM[2:0]
