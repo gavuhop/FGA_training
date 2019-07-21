@@ -299,5 +299,11 @@ typedef struct{
 
 #define I2C ((volatile I2C_TYPE *)0x5210)
 
-
+uint8_t I2C1_Read();
+void I2C1_Write(uint8_t data);
+void I2C1_Start();
+void I2C1_Stop();
+void I2C1_Select_Slave(uint8_t address,uint8_t mode);
+void InitI2C_Master();
+void InitI2C_Slave();
 #endif

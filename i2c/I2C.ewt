@@ -2100,13 +2100,16 @@
     <group>
         <name>lib</name>
         <file>
-            <name>$PROJ_DIR$\Lib\CLOCK.h</name>
+            <name>$PROJ_DIR$\lib\CLOCK.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Lib\GPIO.h</name>
+            <name>$PROJ_DIR$\lib\GPIO.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Lib\I2C.h</name>
+            <name>$PROJ_DIR$\lib\I2C.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lib\I2C.h</name>
         </file>
     </group>
     <file>
