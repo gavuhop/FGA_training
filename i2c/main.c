@@ -25,8 +25,9 @@ void I2C_init_CLOCK(){
 
 
 int main( void ){
-  
-  //Init_I2C();
+  I2C_init_CLOCK();
+  InitI2C_Master();
+  InitI2C_Slave();
   
   
   

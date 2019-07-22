@@ -1,4 +1,4 @@
-#include "lib/LCD.h"
+#include "lcd.h"
 
 LCD_R* LCD_R = (LCD_R*)0x5400;
 LCD_RAMs* ram_group = (LCD_RAMs*)0x540c;
