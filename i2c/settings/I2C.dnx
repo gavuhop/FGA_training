@@ -31,7 +31,9 @@
         <ShowTimeSum>1</ShowTimeSum>
     </DataLog>
     <Breakpoints2>
-        <Count>0</Count>
+        <Bp0>_ 1 "STD_CODE2" "{$PROJ_DIR$\Lib\LCD.h}.64.1" 0 0 1 "" 0 ""</Bp0>
+        <Bp1>_ 1 "STD_CODE2" "{$PROJ_DIR$\Lib\LCD.c}.12.1" 0 0 1 "" 0 ""</Bp1>
+        <Count>2</Count>
     </Breakpoints2>
     <Interrupts>
         <Enabled>1</Enabled>

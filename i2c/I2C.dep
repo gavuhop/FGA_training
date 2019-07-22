@@ -7,68 +7,41 @@
         <outputs>
             <file>$PROJ_DIR$\Debug\Obj\LCD.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\I2C.pbd</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\LCD.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\LCD.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\I2C.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\I2C.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\I2C.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
-            <file>$PROJ_DIR$\Debug\List\I2C.map</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Lib\CLOCK.h</file>
             <file>$PROJ_DIR$\Lib\I2C.c</file>
             <file>$PROJ_DIR$\Lib\I2C.h</file>
-            <file>$PROJ_DIR$\Lib\LCD.c</file>
             <file>$PROJ_DIR$\Lib\LCD.h</file>
-            <file>$PROJ_DIR$\Lib\CLOCK.h</file>
-            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Lib\LCD.c</file>
             <file>$PROJ_DIR$\Lib\GPIO.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\config\lnkstm8.icf</file>
+            <file>$PROJ_DIR$\Debug\Exe\I2C.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\LCD.pbi</file>
+            <file>$PROJ_DIR$\Debug\List\I2C.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\I2C.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LCD.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\Lib\I2C.c</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 10</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 9</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 8</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 18 24 28 14 11 3 25 13 2</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Lib\LCD.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 4</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 0</file>
+                    <name>ILINK</name>
+                    <file> 11 9</file>
                 </tool>
             </outputs>
         </file>
@@ -76,22 +49,60 @@
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 7</file>
+                    <name>__cstat</name>
+                    <file> 21</file>
                 </tool>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 23 14 12 15 29 24 20 17 8 3 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6 3 12 17 8 5 14 15 23 20 29 24</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Lib\I2C.c</name>
+            <outputs>
+                <tool>
                     <name>__cstat</name>
-                    <file> 6</file>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 20 21 14 2 23 18 28 11 24 13 3 25</file>
+                    <file> 12 15 20 24 14 23 29 5 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Lib\LCD.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 0</file>
                 </tool>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 24 28 14 11 3 25 13 2 23 21 18 20</file>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14 20 24 29 6 23 12 15 17</file>
                 </tool>
             </inputs>
         </file>
@@ -100,24 +111,15 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 16</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 26 12 15 27</file>
+                    <file> 18 27 28 13</file>
                 </tool>
             </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 16 29</file>
-                </tool>
-            </outputs>
         </file>
         <forcedrebuild>
             <name>[MULTI_TOOL]</name>
