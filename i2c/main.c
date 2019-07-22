@@ -1,9 +1,15 @@
 #include <stdint.h>
+<<<<<<< HEAD
 
 #include "Lib/GPIO.h"
 #include "Lib/CLOCK.h"
 #include "Lib/I2C.h"
 #include "lib/LCD.h"
+=======
+#include "Lib/CLOCK.h"
+#include "Lib/GPIO.h"
+#include "Lib/I2C.h"
+>>>>>>> ba29e34b980676b1b3ac14b11f19153c41371274
 unsigned char reg;
 uint8_t total;
 #define I2C_WRITE 0
@@ -25,6 +31,7 @@ void I2C_init_CLOCK(){
 
 
 int main( void ){
+<<<<<<< HEAD
   I2C_init_CLOCK();
   InitI2C_Master();
   InitI2C_Slave();
@@ -33,5 +40,14 @@ int main( void ){
   
 
   
+=======
+  
+  //Init_I2C();
+  
+  
+  
+
+  
+>>>>>>> ba29e34b980676b1b3ac14b11f19153c41371274
   return 0;
 }

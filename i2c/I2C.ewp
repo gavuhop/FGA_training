@@ -1606,6 +1606,7 @@
     <group>
         <name>lib</name>
         <file>
+<<<<<<< HEAD
             <name>$PROJ_DIR$\Lib\CLOCK.h</name>
         </file>
         <file>
@@ -1622,6 +1623,18 @@
         </file>
         <file>
             <name>$PROJ_DIR$\Lib\LCD.h</name>
+=======
+            <name>$PROJ_DIR$\lib\CLOCK.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lib\GPIO.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lib\I2C.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lib\I2C.h</name>
+>>>>>>> ba29e34b980676b1b3ac14b11f19153c41371274
         </file>
     </group>
     <file>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>2</fileVersion>
+<<<<<<< HEAD
     <fileChecksum>2666603546</fileChecksum>
     <configuration>
         <name>Debug</name>
@@ -55,20 +56,86 @@
                 <tool>
                     <name>BICOMP</name>
                     <file> 19</file>
+=======
+    <fileChecksum>260341448</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\lib\I2C.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\I2C.out</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C.pbd</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$PROJ_DIR$\Debug\List\I2C.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\lib\CLOCK.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8l152c6.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\lib\GPIO.h</file>
+            <file>$PROJ_DIR$\lib\I2C.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C.pbi</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\lib\I2C.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
+                    <name>ICCSTM8</name>
+                    <file> 21 15 16 10 4 12 3 19 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 16 19 3 10 4 12 21 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\I2C.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 7</file>
+>>>>>>> ba29e34b980676b1b3ac14b11f19153c41371274
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+<<<<<<< HEAD
                     <name>ICCSTM8</name>
                     <file> 23 14 12 15 29 24 20 17 8 3 5</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 6 3 12 17 8 5 14 15 23 20 29 24</file>
+=======
+                    <name>ILINK</name>
+                    <file> 14 22 17 6 2</file>
+>>>>>>> ba29e34b980676b1b3ac14b11f19153c41371274
                 </tool>
             </inputs>
         </file>
         <file>
+<<<<<<< HEAD
             <name>$PROJ_DIR$\Lib\I2C.c</name>
             <outputs>
                 <tool>
@@ -78,10 +145,35 @@
                 <tool>
                     <name>BICOMP</name>
                     <file> 25</file>
+=======
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 1 7</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 9</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+>>>>>>> ba29e34b980676b1b3ac14b11f19153c41371274
                 </tool>
             </outputs>
             <inputs>
                 <tool>
+<<<<<<< HEAD
                     <name>BICOMP</name>
                     <file> 12 15 20 24 14 23 29 5 17</file>
                 </tool>
@@ -125,6 +217,17 @@
             <name>[MULTI_TOOL]</name>
             <tool>ILINK</tool>
         </forcedrebuild>
+=======
+                    <name>ICCSTM8</name>
+                    <file> 15 16 10 4 12 3 19 18 11 20 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16 10 20 15 11 21 4 18 19 12 3</file>
+                </tool>
+            </inputs>
+        </file>
+>>>>>>> ba29e34b980676b1b3ac14b11f19153c41371274
     </configuration>
     <configuration>
         <name>Release</name>
