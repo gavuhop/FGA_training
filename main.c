@@ -1,6 +1,6 @@
 #define  I2C1_CR1   (*(uint8_t *)0x5210)        //   I2C1 control register 1 
 #define  I2C1_CR2   (*(uint8_t *)0x5211)        //   I2C1 control register 2 
-#define  I2C1_FREQR (*(uint8_t *)0x5212)        //   I2C1 frequency register 
+#define  I2C1_FREQR (*(uint8_t *)0x5212)     
 #define  I2C1_OARL  (*(uint8_t *)0x5213)        //   I2C1 own address register low 
 #define  I2C1_OARH  (*(uint8_t *)0x5214)        //   I2C1 own address register high 
 #define  I2C1_DR    (*(uint8_t *)0x5216)        //   I2C1 data register 
