@@ -3,7 +3,7 @@
 #include "Lib/GPIO.h"
 #include "Lib/CLOCK.h"
 #include "Lib/I2C.h"
-#include "Lib/LCD.h"
+#include "lib/LCD.h"
 unsigned char reg;
 uint8_t total;
 #define I2C_WRITE 0
