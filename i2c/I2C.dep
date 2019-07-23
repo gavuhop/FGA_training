@@ -5,38 +5,38 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Lib\CLOCK.h</file>
             <file>$PROJ_DIR$\Lib\GPIO.h</file>
+            <file>$PROJ_DIR$\Lib\I2C.h</file>
+            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\Lib\I2C.c</file>
             <file>$PROJ_DIR$\Lib\LCD.c</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Lib\LCD.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Lib\CLOCK.h</file>
+            <file>$PROJ_DIR$\Lib\LCD.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$PROJ_DIR$\Debug\Obj\I2C.pbd</file>
-            <file>$PROJ_DIR$\Lib\I2C.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\I2C.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\I2C.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\LCD.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C.o</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\config\lnkstm8l152c6.icf</file>
-            <file>$PROJ_DIR$\Debug\List\I2C.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C.xcl</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$PROJ_DIR$\Debug\Obj\LCD.o</file>
-            <file>$PROJ_DIR$\Debug\Exe\I2C.out</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$PROJ_DIR$\Debug\Obj\I2C.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$PROJ_DIR$\Debug\List\I2C.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\LCD.xcl</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8l152c6.icf</file>
             <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Exe\I2C.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\Lib\I2C.c</name>
+            <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
@@ -44,17 +44,40 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11</file>
+                    <file> 22</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 25</file>
+                    <file> 26</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 9 16 19 13 0 22 7 23 27</file>
+                    <file> 12 14 16 8 28 5 24 20 6 0 1 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Lib\I2C.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 1 12 14 16 8 28 5 24 20</file>
                 </tool>
             </inputs>
         </file>
@@ -63,40 +86,17 @@
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 20</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
                     <file> 15</file>
                 </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 6 16 19 13 0 22 7 23 27</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 12</file>
-                </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 28</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 24</file>
+                    <file> 19</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 16 19 13 0 22 7 23 27 1 2 9 6</file>
+                    <file> 7 12 14 16 8 28 5 24 20</file>
                 </tool>
             </inputs>
         </file>
@@ -105,7 +105,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 21 18</file>
+                    <file> 23 18</file>
                 </tool>
             </outputs>
         </file>
@@ -120,16 +120,16 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 17 10 20 12 26 14</file>
+                    <file> 21 11 15 10 27 25</file>
                 </tool>
             </inputs>
         </file>
         <forcedrebuild>
-            <name>$PROJ_DIR$\Lib\I2C.c</name>
+            <name>$PROJ_DIR$\main.c</name>
             <tool>C-STAT</tool>
         </forcedrebuild>
         <forcedrebuild>
-            <name>$PROJ_DIR$\main.c</name>
+            <name>$PROJ_DIR$\Lib\I2C.c</name>
             <tool>C-STAT</tool>
         </forcedrebuild>
     </configuration>

@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\VietTV1\Desktop\FGA_training-master\i2c\settings\I2C.Debug.general.xcl" --backend -f "C:\Users\VietTV1\Desktop\FGA_training-master\i2c\settings\I2C.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\VietTV1\Desktop\FGA_training\i2c\settings\I2C.Debug.general.xcl" --backend -f "C:\Users\VietTV1\Desktop\FGA_training\i2c\settings\I2C.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\VietTV1\Desktop\FGA_training-master\i2c\settings\I2C.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\VietTV1\Desktop\FGA_training-master\i2c\settings\I2C.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\VietTV1\Desktop\FGA_training\i2c\settings\I2C.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\VietTV1\Desktop\FGA_training\i2c\settings\I2C.Debug.driver.xcl" 
 }

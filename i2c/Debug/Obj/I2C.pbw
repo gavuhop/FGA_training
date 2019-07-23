@@ -1071,7 +1071,7 @@
     "location": {
       "column": "9",
       "line": "3",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -1082,7 +1082,7 @@
         "location": {
           "column": "11",
           "line": "4",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_PE",
         "origin": "user_include",
@@ -1096,7 +1096,7 @@
         "location": {
           "column": "12",
           "line": "7",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_SMBUS",
         "origin": "user_include",
@@ -1110,7 +1110,7 @@
         "location": {
           "column": "12",
           "line": "10",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_Reserved",
         "origin": "user_include",
@@ -1124,7 +1124,7 @@
         "location": {
           "column": "12",
           "line": "11",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_SMBTYPE",
         "origin": "user_include",
@@ -1138,7 +1138,7 @@
         "location": {
           "column": "12",
           "line": "14",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ENARP",
         "origin": "user_include",
@@ -1152,7 +1152,7 @@
         "location": {
           "column": "12",
           "line": "17",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ENPEC",
         "origin": "user_include",
@@ -1166,7 +1166,7 @@
         "location": {
           "column": "12",
           "line": "20",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ENGC",
         "origin": "user_include",
@@ -1180,7 +1180,7 @@
         "location": {
           "column": "12",
           "line": "23",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_NOSTRETCH",
         "origin": "user_include",
@@ -1194,7 +1194,7 @@
         "location": {
           "column": "2",
           "line": "26",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_CR1_TYPE",
         "origin": "user_include",
@@ -1213,7 +1213,7 @@
     "location": {
       "column": "9",
       "line": "30",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -1224,7 +1224,7 @@
         "location": {
           "column": "16",
           "line": "31",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_START",
         "origin": "user_include",
@@ -1238,7 +1238,7 @@
         "location": {
           "column": "16",
           "line": "38",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_STOP",
         "origin": "user_include",
@@ -1252,7 +1252,7 @@
         "location": {
           "column": "16",
           "line": "45",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ACK",
         "origin": "user_include",
@@ -1266,7 +1266,7 @@
         "location": {
           "column": "16",
           "line": "48",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_POS",
         "origin": "user_include",
@@ -1280,7 +1280,7 @@
         "location": {
           "column": "16",
           "line": "53",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_PEC",
         "origin": "user_include",
@@ -1294,7 +1294,7 @@
         "location": {
           "column": "16",
           "line": "56",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ALERT",
         "origin": "user_include",
@@ -1308,7 +1308,7 @@
         "location": {
           "column": "16",
           "line": "59",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_Reserved",
         "origin": "user_include",
@@ -1322,7 +1322,7 @@
         "location": {
           "column": "16",
           "line": "60",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_SWRST",
         "origin": "user_include",
@@ -1336,7 +1336,7 @@
         "location": {
           "column": "2",
           "line": "63",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_CR2_TYPE",
         "origin": "user_include",
@@ -1355,7 +1355,7 @@
     "location": {
       "column": "9",
       "line": "68",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -1366,7 +1366,7 @@
         "location": {
           "column": "16",
           "line": "69",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_FREQ",
         "origin": "user_include",
@@ -1380,7 +1380,7 @@
         "location": {
           "column": "16",
           "line": "77",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_Reserved",
         "origin": "user_include",
@@ -1394,7 +1394,7 @@
         "location": {
           "column": "2",
           "line": "78",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_FREQR_TYPE",
         "origin": "user_include",
@@ -1413,7 +1413,7 @@
     "location": {
       "column": "9",
       "line": "83",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -1424,7 +1424,7 @@
         "location": {
           "column": "16",
           "line": "84",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ADD0",
         "origin": "user_include",
@@ -1438,7 +1438,7 @@
         "location": {
           "column": "16",
           "line": "87",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ADD",
         "origin": "user_include",
@@ -1452,7 +1452,7 @@
         "location": {
           "column": "2",
           "line": "88",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_OARL_TYPE",
         "origin": "user_include",
@@ -1471,7 +1471,7 @@
     "location": {
       "column": "9",
       "line": "94",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -1482,7 +1482,7 @@
         "location": {
           "column": "16",
           "line": "95",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_Reserved1",
         "origin": "user_include",
@@ -1496,7 +1496,7 @@
         "location": {
           "column": "16",
           "line": "96",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ADD",
         "origin": "user_include",
@@ -1510,7 +1510,7 @@
         "location": {
           "column": "16",
           "line": "97",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_Reserved2",
         "origin": "user_include",
@@ -1524,7 +1524,7 @@
         "location": {
           "column": "16",
           "line": "98",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ADDCONF",
         "origin": "user_include",
@@ -1538,7 +1538,7 @@
         "location": {
           "column": "16",
           "line": "100",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ADDMODE",
         "origin": "user_include",
@@ -1552,7 +1552,7 @@
         "location": {
           "column": "2",
           "line": "103",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_OARH_TYPE",
         "origin": "user_include",
@@ -1571,7 +1571,7 @@
     "location": {
       "column": "9",
       "line": "108",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -1582,7 +1582,7 @@
         "location": {
           "column": "16",
           "line": "109",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ENDUAL",
         "origin": "user_include",
@@ -1596,7 +1596,7 @@
         "location": {
           "column": "16",
           "line": "112",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ADD2",
         "origin": "user_include",
@@ -1610,7 +1610,7 @@
         "location": {
           "column": "2",
           "line": "115",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_OAR2_TYPE",
         "origin": "user_include",
@@ -1629,7 +1629,7 @@
     "location": {
       "column": "9",
       "line": "121",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -1640,7 +1640,7 @@
         "location": {
           "column": "16",
           "line": "122",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_DR",
         "origin": "user_include",
@@ -1654,7 +1654,7 @@
         "location": {
           "column": "2",
           "line": "128",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_DR_TYPE",
         "origin": "user_include",
@@ -1673,7 +1673,7 @@
     "location": {
       "column": "9",
       "line": "133",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -1684,7 +1684,7 @@
         "location": {
           "column": "16",
           "line": "134",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_SB",
         "origin": "user_include",
@@ -1698,7 +1698,7 @@
         "location": {
           "column": "16",
           "line": "137",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ADDR",
         "origin": "user_include",
@@ -1712,7 +1712,7 @@
         "location": {
           "column": "16",
           "line": "144",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_BTF",
         "origin": "user_include",
@@ -1726,7 +1726,7 @@
         "location": {
           "column": "16",
           "line": "147",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ADD10",
         "origin": "user_include",
@@ -1740,7 +1740,7 @@
         "location": {
           "column": "16",
           "line": "150",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_STOPF",
         "origin": "user_include",
@@ -1754,7 +1754,7 @@
         "location": {
           "column": "16",
           "line": "153",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_Reserved",
         "origin": "user_include",
@@ -1768,7 +1768,7 @@
         "location": {
           "column": "16",
           "line": "154",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_RXNE",
         "origin": "user_include",
@@ -1782,7 +1782,7 @@
         "location": {
           "column": "16",
           "line": "157",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_TXE",
         "origin": "user_include",
@@ -1796,7 +1796,7 @@
         "location": {
           "column": "2",
           "line": "160",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_SR1_TYPE",
         "origin": "user_include",
@@ -1815,7 +1815,7 @@
     "location": {
       "column": "9",
       "line": "164",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -1826,7 +1826,7 @@
         "location": {
           "column": "16",
           "line": "165",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_BERR",
         "origin": "user_include",
@@ -1840,7 +1840,7 @@
         "location": {
           "column": "16",
           "line": "168",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ARLO",
         "origin": "user_include",
@@ -1854,7 +1854,7 @@
         "location": {
           "column": "16",
           "line": "171",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_AF",
         "origin": "user_include",
@@ -1868,7 +1868,7 @@
         "location": {
           "column": "16",
           "line": "174",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_OVR",
         "origin": "user_include",
@@ -1882,7 +1882,7 @@
         "location": {
           "column": "16",
           "line": "177",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_PECERR",
         "origin": "user_include",
@@ -1896,7 +1896,7 @@
         "location": {
           "column": "16",
           "line": "180",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_WUFH",
         "origin": "user_include",
@@ -1910,7 +1910,7 @@
         "location": {
           "column": "16",
           "line": "183",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_TIMEOUT",
         "origin": "user_include",
@@ -1924,7 +1924,7 @@
         "location": {
           "column": "16",
           "line": "186",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_SMBALERT",
         "origin": "user_include",
@@ -1938,7 +1938,7 @@
         "location": {
           "column": "2",
           "line": "193",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_SR2_TYPE",
         "origin": "user_include",
@@ -1957,7 +1957,7 @@
     "location": {
       "column": "9",
       "line": "197",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -1968,7 +1968,7 @@
         "location": {
           "column": "16",
           "line": "198",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_MSL",
         "origin": "user_include",
@@ -1982,7 +1982,7 @@
         "location": {
           "column": "16",
           "line": "202",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_BUSY",
         "origin": "user_include",
@@ -1996,7 +1996,7 @@
         "location": {
           "column": "16",
           "line": "205",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_TRA",
         "origin": "user_include",
@@ -2010,7 +2010,7 @@
         "location": {
           "column": "16",
           "line": "208",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_Reserved",
         "origin": "user_include",
@@ -2024,7 +2024,7 @@
         "location": {
           "column": "16",
           "line": "209",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_GENCALL",
         "origin": "user_include",
@@ -2038,7 +2038,7 @@
         "location": {
           "column": "16",
           "line": "212",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_SMBDEFAULT",
         "origin": "user_include",
@@ -2052,7 +2052,7 @@
         "location": {
           "column": "16",
           "line": "213",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_SMBHOST",
         "origin": "user_include",
@@ -2066,7 +2066,7 @@
         "location": {
           "column": "16",
           "line": "214",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_DUALF",
         "origin": "user_include",
@@ -2080,7 +2080,7 @@
         "location": {
           "column": "2",
           "line": "218",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_SR3_TYPE",
         "origin": "user_include",
@@ -2099,7 +2099,7 @@
     "location": {
       "column": "9",
       "line": "222",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -2110,7 +2110,7 @@
         "location": {
           "column": "16",
           "line": "223",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ITERREN",
         "origin": "user_include",
@@ -2124,7 +2124,7 @@
         "location": {
           "column": "16",
           "line": "226",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ITEVTEN",
         "origin": "user_include",
@@ -2138,7 +2138,7 @@
         "location": {
           "column": "16",
           "line": "229",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_ITBUFEN",
         "origin": "user_include",
@@ -2152,7 +2152,7 @@
         "location": {
           "column": "16",
           "line": "232",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_DMAEN",
         "origin": "user_include",
@@ -2166,7 +2166,7 @@
         "location": {
           "column": "16",
           "line": "235",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_LAST",
         "origin": "user_include",
@@ -2180,7 +2180,7 @@
         "location": {
           "column": "16",
           "line": "238",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_Reserved",
         "origin": "user_include",
@@ -2194,7 +2194,7 @@
         "location": {
           "column": "2",
           "line": "239",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_ITR_TYPE",
         "origin": "user_include",
@@ -2213,7 +2213,7 @@
     "location": {
       "column": "9",
       "line": "243",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -2224,7 +2224,7 @@
         "location": {
           "column": "16",
           "line": "244",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_CCR",
         "origin": "user_include",
@@ -2238,7 +2238,7 @@
         "location": {
           "column": "2",
           "line": "246",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_CCRL_TYPE",
         "origin": "user_include",
@@ -2257,7 +2257,7 @@
     "location": {
       "column": "9",
       "line": "250",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -2268,7 +2268,7 @@
         "location": {
           "column": "16",
           "line": "251",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_CCR",
         "origin": "user_include",
@@ -2282,7 +2282,7 @@
         "location": {
           "column": "16",
           "line": "252",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_Reserved",
         "origin": "user_include",
@@ -2296,7 +2296,7 @@
         "location": {
           "column": "16",
           "line": "253",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_DUTY",
         "origin": "user_include",
@@ -2310,7 +2310,7 @@
         "location": {
           "column": "16",
           "line": "256",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_FS",
         "origin": "user_include",
@@ -2324,7 +2324,7 @@
         "location": {
           "column": "2",
           "line": "259",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_CCRH_TYPE",
         "origin": "user_include",
@@ -2343,7 +2343,7 @@
     "location": {
       "column": "9",
       "line": "263",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -2354,7 +2354,7 @@
         "location": {
           "column": "16",
           "line": "264",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_TRISE",
         "origin": "user_include",
@@ -2368,7 +2368,7 @@
         "location": {
           "column": "16",
           "line": "269",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_Reserved",
         "origin": "user_include",
@@ -2382,7 +2382,7 @@
         "location": {
           "column": "2",
           "line": "270",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_TRISER_TYPE",
         "origin": "user_include",
@@ -2401,7 +2401,7 @@
     "location": {
       "column": "9",
       "line": "274",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -2412,7 +2412,7 @@
         "location": {
           "column": "16",
           "line": "276",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_PEC",
         "origin": "user_include",
@@ -2426,7 +2426,7 @@
         "location": {
           "column": "2",
           "line": "278",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_PECR_TYPE",
         "origin": "user_include",
@@ -2445,7 +2445,7 @@
     "location": {
       "column": "9",
       "line": "282",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "members": [
       {
@@ -2456,7 +2456,7 @@
         "location": {
           "column": "33",
           "line": "283",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_CR1",
         "origin": "user_include",
@@ -2470,7 +2470,7 @@
         "location": {
           "column": "33",
           "line": "284",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_CR2",
         "origin": "user_include",
@@ -2484,7 +2484,7 @@
         "location": {
           "column": "33",
           "line": "285",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_FREQR",
         "origin": "user_include",
@@ -2498,7 +2498,7 @@
         "location": {
           "column": "33",
           "line": "286",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_OARL",
         "origin": "user_include",
@@ -2512,7 +2512,7 @@
         "location": {
           "column": "33",
           "line": "287",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_OARH",
         "origin": "user_include",
@@ -2526,7 +2526,7 @@
         "location": {
           "column": "33",
           "line": "288",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_OAR2",
         "origin": "user_include",
@@ -2540,7 +2540,7 @@
         "location": {
           "column": "33",
           "line": "289",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_DR",
         "origin": "user_include",
@@ -2554,7 +2554,7 @@
         "location": {
           "column": "33",
           "line": "290",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_SR1",
         "origin": "user_include",
@@ -2568,7 +2568,7 @@
         "location": {
           "column": "33",
           "line": "291",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_SR2",
         "origin": "user_include",
@@ -2582,7 +2582,7 @@
         "location": {
           "column": "33",
           "line": "292",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_SR3",
         "origin": "user_include",
@@ -2596,7 +2596,7 @@
         "location": {
           "column": "33",
           "line": "293",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_ITR",
         "origin": "user_include",
@@ -2610,7 +2610,7 @@
         "location": {
           "column": "33",
           "line": "294",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_CCRL",
         "origin": "user_include",
@@ -2624,7 +2624,7 @@
         "location": {
           "column": "33",
           "line": "295",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_CCRH",
         "origin": "user_include",
@@ -2638,7 +2638,7 @@
         "location": {
           "column": "33",
           "line": "296",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_TRISER",
         "origin": "user_include",
@@ -2652,7 +2652,7 @@
         "location": {
           "column": "33",
           "line": "297",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C1_PECR",
         "origin": "user_include",
@@ -2666,7 +2666,7 @@
         "location": {
           "column": "2",
           "line": "298",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
         },
         "name": "I2C_TYPE",
         "origin": "user_include",
@@ -2685,7 +2685,7 @@
     "location": {
       "column": "9",
       "line": "300",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "I2C",
     "origin": "user_include",
@@ -2699,7 +2699,7 @@
     "location": {
       "column": "9",
       "line": "302",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "I2C1_Read",
     "origin": "user_include",
@@ -2713,7 +2713,7 @@
     "location": {
       "column": "9",
       "line": "302",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "I2C1_Read",
     "origin": "user_include",
@@ -2727,7 +2727,7 @@
     "location": {
       "column": "6",
       "line": "303",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "I2C1_Write",
     "origin": "user_include",
@@ -2741,7 +2741,7 @@
     "location": {
       "column": "6",
       "line": "303",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "I2C1_Write",
     "origin": "user_include",
@@ -2755,7 +2755,7 @@
     "location": {
       "column": "6",
       "line": "304",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "I2C1_Start",
     "origin": "user_include",
@@ -2769,7 +2769,7 @@
     "location": {
       "column": "6",
       "line": "304",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "I2C1_Start",
     "origin": "user_include",
@@ -2783,7 +2783,7 @@
     "location": {
       "column": "6",
       "line": "305",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "I2C1_Stop",
     "origin": "user_include",
@@ -2797,7 +2797,7 @@
     "location": {
       "column": "6",
       "line": "305",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "I2C1_Stop",
     "origin": "user_include",
@@ -2811,7 +2811,7 @@
     "location": {
       "column": "6",
       "line": "306",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "I2C1_Select_Slave",
     "origin": "user_include",
@@ -2825,7 +2825,7 @@
     "location": {
       "column": "6",
       "line": "306",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "I2C1_Select_Slave",
     "origin": "user_include",
@@ -2839,7 +2839,7 @@
     "location": {
       "column": "6",
       "line": "307",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "InitI2C_Master",
     "origin": "user_include",
@@ -2853,7 +2853,7 @@
     "location": {
       "column": "6",
       "line": "307",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "InitI2C_Master",
     "origin": "user_include",
@@ -2867,7 +2867,7 @@
     "location": {
       "column": "6",
       "line": "308",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "InitI2C_Slave",
     "origin": "user_include",
@@ -2881,7 +2881,7 @@
     "location": {
       "column": "6",
       "line": "308",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.h"
     },
     "name": "InitI2C_Slave",
     "origin": "user_include",
@@ -5015,7 +5015,7 @@
     "location": {
       "column": "9",
       "line": "3",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.c"
     },
     "name": "I2C1_Read",
     "origin": "project_file",
@@ -5029,7 +5029,7 @@
     "location": {
       "column": "6",
       "line": "10",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.c"
     },
     "name": "I2C1_Write",
     "origin": "project_file",
@@ -5043,7 +5043,7 @@
     "location": {
       "column": "6",
       "line": "15",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.c"
     },
     "name": "I2C1_Start",
     "origin": "project_file",
@@ -5057,7 +5057,7 @@
     "location": {
       "column": "6",
       "line": "20",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.c"
     },
     "name": "I2C1_Stop",
     "origin": "project_file",
@@ -5071,7 +5071,7 @@
     "location": {
       "column": "6",
       "line": "24",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.c"
     },
     "name": "I2C1_Select_Slave",
     "origin": "project_file",
@@ -5085,7 +5085,7 @@
     "location": {
       "column": "11",
       "line": "25",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.c"
     },
     "name": "data",
     "origin": "project_file",
@@ -5099,7 +5099,7 @@
     "location": {
       "column": "6",
       "line": "31",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.c"
     },
     "name": "InitI2C_Master",
     "origin": "project_file",
@@ -5113,7 +5113,7 @@
     "location": {
       "column": "6",
       "line": "59",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\I2C.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\I2C.c"
     },
     "name": "InitI2C_Slave",
     "origin": "project_file",
@@ -6247,7 +6247,7 @@
     "location": {
       "column": "8",
       "line": "3",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "lcd_r",
     "origin": "project_file",
@@ -6261,7 +6261,7 @@
     "location": {
       "column": "11",
       "line": "4",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "ram_group",
     "origin": "project_file",
@@ -6275,7 +6275,7 @@
     "location": {
       "column": "8",
       "line": "6",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "get_LCD_R",
     "origin": "project_file",
@@ -6289,7 +6289,7 @@
     "location": {
       "column": "6",
       "line": "10",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "reset_lcd_r",
     "origin": "project_file",
@@ -6303,7 +6303,7 @@
     "location": {
       "column": "6",
       "line": "22",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "reset_LCD_RAMs",
     "origin": "project_file",
@@ -6317,7 +6317,7 @@
     "location": {
       "column": "6",
       "line": "41",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "enable_clock_for_LCD",
     "origin": "project_file",
@@ -6331,7 +6331,7 @@
     "location": {
       "column": "6",
       "line": "47",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "configure_RTC_clock",
     "origin": "project_file",
@@ -6345,7 +6345,7 @@
     "location": {
       "column": "6",
       "line": "53",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "configure_LCD_frequencies",
     "origin": "project_file",
@@ -6359,7 +6359,7 @@
     "location": {
       "column": "6",
       "line": "59",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "configure_port_pins_for_LCD",
     "origin": "project_file",
@@ -6373,7 +6373,7 @@
     "location": {
       "column": "6",
       "line": "66",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "configure_LCD_interrupt",
     "origin": "project_file",
@@ -6387,7 +6387,7 @@
     "location": {
       "column": "13",
       "line": "73",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "activate_segment_of_digit",
     "origin": "project_file",
@@ -6401,7 +6401,7 @@
     "location": {
       "column": "13",
       "line": "278",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "activate_colon",
     "origin": "project_file",
@@ -6415,7 +6415,7 @@
     "location": {
       "column": "13",
       "line": "293",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "activate_dp",
     "origin": "project_file",
@@ -6429,7 +6429,7 @@
     "location": {
       "column": "13",
       "line": "308",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "activate_bar",
     "origin": "project_file",
@@ -6443,7 +6443,7 @@
     "location": {
       "column": "6",
       "line": "323",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "display_letter",
     "origin": "project_file",
@@ -6457,7 +6457,7 @@
     "location": {
       "column": "6",
       "line": "517",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "display_number",
     "origin": "project_file",
@@ -6471,7 +6471,7 @@
     "location": {
       "column": "6",
       "line": "603",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "display_win",
     "origin": "project_file",
@@ -6485,7 +6485,7 @@
     "location": {
       "column": "6",
       "line": "622",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "display_a",
     "origin": "project_file",
@@ -6499,7 +6499,7 @@
     "location": {
       "column": "6",
       "line": "629",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "display_b",
     "origin": "project_file",
@@ -6513,7 +6513,7 @@
     "location": {
       "column": "6",
       "line": "636",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.c"
     },
     "name": "init_LCD",
     "origin": "project_file",
@@ -6527,7 +6527,7 @@
     "location": {
       "column": "9",
       "line": "4",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "CLK_CKDIVR",
     "origin": "user_include",
@@ -6541,7 +6541,7 @@
     "location": {
       "column": "9",
       "line": "4",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "CLK_CKDIVR",
     "origin": "user_include",
@@ -6555,7 +6555,7 @@
     "location": {
       "column": "9",
       "line": "5",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "CLK_CRTCR",
     "origin": "user_include",
@@ -6569,7 +6569,7 @@
     "location": {
       "column": "9",
       "line": "5",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "CLK_CRTCR",
     "origin": "user_include",
@@ -6583,7 +6583,7 @@
     "location": {
       "column": "9",
       "line": "6",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "CLK_PCKENR2",
     "origin": "user_include",
@@ -6597,7 +6597,7 @@
     "location": {
       "column": "9",
       "line": "6",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "CLK_PCKENR2",
     "origin": "user_include",
@@ -6611,7 +6611,7 @@
     "location": {
       "column": "9",
       "line": "8",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "ITC_SPR5",
     "origin": "user_include",
@@ -6625,7 +6625,7 @@
     "location": {
       "column": "9",
       "line": "8",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "ITC_SPR5",
     "origin": "user_include",
@@ -6639,7 +6639,7 @@
     "location": {
       "column": "9",
       "line": "10",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "SET_BIT",
     "origin": "user_include",
@@ -6653,7 +6653,7 @@
     "location": {
       "column": "9",
       "line": "10",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "SET_BIT",
     "origin": "user_include",
@@ -6667,7 +6667,7 @@
     "location": {
       "column": "9",
       "line": "11",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "CLR_B",
     "origin": "user_include",
@@ -6681,7 +6681,7 @@
     "location": {
       "column": "9",
       "line": "11",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "CLR_B",
     "origin": "user_include",
@@ -6695,7 +6695,7 @@
     "location": {
       "column": "9",
       "line": "12",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "GET_B",
     "origin": "user_include",
@@ -6709,7 +6709,7 @@
     "location": {
       "column": "9",
       "line": "12",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "GET_B",
     "origin": "user_include",
@@ -6723,7 +6723,7 @@
     "location": {
       "column": "17",
       "line": "14",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "ut8",
     "origin": "user_include",
@@ -6737,7 +6737,7 @@
     "location": {
       "column": "17",
       "line": "14",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "ut8",
     "origin": "user_include",
@@ -6751,7 +6751,7 @@
     "location": {
       "column": "16",
       "line": "16",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "members": [
       {
@@ -6762,7 +6762,7 @@
         "location": {
           "column": "6",
           "line": "18",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "CR1",
         "origin": "user_include",
@@ -6776,7 +6776,7 @@
         "location": {
           "column": "6",
           "line": "19",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "CR2",
         "origin": "user_include",
@@ -6790,7 +6790,7 @@
         "location": {
           "column": "6",
           "line": "20",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "CR3",
         "origin": "user_include",
@@ -6804,7 +6804,7 @@
         "location": {
           "column": "6",
           "line": "21",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "FRQ",
         "origin": "user_include",
@@ -6818,7 +6818,7 @@
         "location": {
           "column": "6",
           "line": "22",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "PM0",
         "origin": "user_include",
@@ -6832,7 +6832,7 @@
         "location": {
           "column": "6",
           "line": "23",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "PM1",
         "origin": "user_include",
@@ -6846,7 +6846,7 @@
         "location": {
           "column": "6",
           "line": "24",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "PM2",
         "origin": "user_include",
@@ -6860,7 +6860,7 @@
         "location": {
           "column": "6",
           "line": "25",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "PM3",
         "origin": "user_include",
@@ -6874,7 +6874,7 @@
         "location": {
           "column": "3",
           "line": "26",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "LCD_R",
         "origin": "user_include",
@@ -6888,7 +6888,7 @@
         "location": {
           "column": "3",
           "line": "26",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "LCD_R",
         "origin": "user_include",
@@ -6907,7 +6907,7 @@
     "location": {
       "column": "16",
       "line": "28",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "members": [
       {
@@ -6918,7 +6918,7 @@
         "location": {
           "column": "6",
           "line": "30",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM0",
         "origin": "user_include",
@@ -6932,7 +6932,7 @@
         "location": {
           "column": "6",
           "line": "31",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM1",
         "origin": "user_include",
@@ -6946,7 +6946,7 @@
         "location": {
           "column": "6",
           "line": "32",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM2",
         "origin": "user_include",
@@ -6960,7 +6960,7 @@
         "location": {
           "column": "6",
           "line": "33",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM3",
         "origin": "user_include",
@@ -6974,7 +6974,7 @@
         "location": {
           "column": "6",
           "line": "34",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM4",
         "origin": "user_include",
@@ -6988,7 +6988,7 @@
         "location": {
           "column": "6",
           "line": "35",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM5",
         "origin": "user_include",
@@ -7002,7 +7002,7 @@
         "location": {
           "column": "6",
           "line": "36",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM6",
         "origin": "user_include",
@@ -7016,7 +7016,7 @@
         "location": {
           "column": "6",
           "line": "37",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM7",
         "origin": "user_include",
@@ -7030,7 +7030,7 @@
         "location": {
           "column": "6",
           "line": "38",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM8",
         "origin": "user_include",
@@ -7044,7 +7044,7 @@
         "location": {
           "column": "6",
           "line": "39",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM9",
         "origin": "user_include",
@@ -7058,7 +7058,7 @@
         "location": {
           "column": "6",
           "line": "40",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM10",
         "origin": "user_include",
@@ -7072,7 +7072,7 @@
         "location": {
           "column": "6",
           "line": "41",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM11",
         "origin": "user_include",
@@ -7086,7 +7086,7 @@
         "location": {
           "column": "6",
           "line": "42",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM12",
         "origin": "user_include",
@@ -7100,7 +7100,7 @@
         "location": {
           "column": "6",
           "line": "43",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "RAM13",
         "origin": "user_include",
@@ -7114,7 +7114,7 @@
         "location": {
           "column": "3",
           "line": "44",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "LCD_RAMs",
         "origin": "user_include",
@@ -7128,7 +7128,7 @@
         "location": {
           "column": "3",
           "line": "44",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
         },
         "name": "LCD_RAMs",
         "origin": "user_include",
@@ -7147,7 +7147,7 @@
     "location": {
       "column": "8",
       "line": "46",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "get_LCD_R",
     "origin": "user_include",
@@ -7161,7 +7161,7 @@
     "location": {
       "column": "8",
       "line": "46",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "get_LCD_R",
     "origin": "user_include",
@@ -7175,7 +7175,7 @@
     "location": {
       "column": "6",
       "line": "48",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "enable_clock_for_LCD",
     "origin": "user_include",
@@ -7189,7 +7189,7 @@
     "location": {
       "column": "6",
       "line": "48",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "enable_clock_for_LCD",
     "origin": "user_include",
@@ -7203,7 +7203,7 @@
     "location": {
       "column": "6",
       "line": "49",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "configure_RTC_clock",
     "origin": "user_include",
@@ -7217,7 +7217,7 @@
     "location": {
       "column": "6",
       "line": "49",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "configure_RTC_clock",
     "origin": "user_include",
@@ -7231,7 +7231,7 @@
     "location": {
       "column": "6",
       "line": "50",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "configure_LCD_frequencies",
     "origin": "user_include",
@@ -7245,7 +7245,7 @@
     "location": {
       "column": "6",
       "line": "50",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "configure_LCD_frequencies",
     "origin": "user_include",
@@ -7259,7 +7259,7 @@
     "location": {
       "column": "6",
       "line": "51",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "configure_port_pins_for_LCD",
     "origin": "user_include",
@@ -7273,7 +7273,7 @@
     "location": {
       "column": "6",
       "line": "51",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "configure_port_pins_for_LCD",
     "origin": "user_include",
@@ -7287,7 +7287,7 @@
     "location": {
       "column": "6",
       "line": "52",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "reset_LCD_R",
     "origin": "user_include",
@@ -7301,7 +7301,7 @@
     "location": {
       "column": "6",
       "line": "53",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "reset_LCD_RAMs",
     "origin": "user_include",
@@ -7315,7 +7315,7 @@
     "location": {
       "column": "6",
       "line": "53",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "reset_LCD_RAMs",
     "origin": "user_include",
@@ -7329,7 +7329,7 @@
     "location": {
       "column": "6",
       "line": "54",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "configure_LCD_interrupt",
     "origin": "user_include",
@@ -7343,7 +7343,7 @@
     "location": {
       "column": "6",
       "line": "54",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "configure_LCD_interrupt",
     "origin": "user_include",
@@ -7357,7 +7357,7 @@
     "location": {
       "column": "6",
       "line": "55",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "init_LCD",
     "origin": "user_include",
@@ -7371,7 +7371,7 @@
     "location": {
       "column": "6",
       "line": "55",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "init_LCD",
     "origin": "user_include",
@@ -7385,7 +7385,7 @@
     "location": {
       "column": "13",
       "line": "58",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "activate_segment_of_digit",
     "origin": "user_include",
@@ -7399,7 +7399,7 @@
     "location": {
       "column": "13",
       "line": "58",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "activate_segment_of_digit",
     "origin": "user_include",
@@ -7413,7 +7413,7 @@
     "location": {
       "column": "13",
       "line": "59",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "activate_colon",
     "origin": "user_include",
@@ -7427,7 +7427,7 @@
     "location": {
       "column": "13",
       "line": "59",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "activate_colon",
     "origin": "user_include",
@@ -7441,7 +7441,7 @@
     "location": {
       "column": "13",
       "line": "60",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "activate_dp",
     "origin": "user_include",
@@ -7455,7 +7455,7 @@
     "location": {
       "column": "13",
       "line": "60",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "activate_dp",
     "origin": "user_include",
@@ -7469,7 +7469,7 @@
     "location": {
       "column": "13",
       "line": "61",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "activate_bar",
     "origin": "user_include",
@@ -7483,7 +7483,7 @@
     "location": {
       "column": "13",
       "line": "61",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "activate_bar",
     "origin": "user_include",
@@ -7497,7 +7497,7 @@
     "location": {
       "column": "6",
       "line": "62",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "display_letter",
     "origin": "user_include",
@@ -7511,7 +7511,7 @@
     "location": {
       "column": "6",
       "line": "62",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "display_letter",
     "origin": "user_include",
@@ -7525,7 +7525,7 @@
     "location": {
       "column": "6",
       "line": "63",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "display_number",
     "origin": "user_include",
@@ -7539,7 +7539,7 @@
     "location": {
       "column": "6",
       "line": "63",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "display_number",
     "origin": "user_include",
@@ -7553,7 +7553,7 @@
     "location": {
       "column": "6",
       "line": "64",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "display_win",
     "origin": "user_include",
@@ -7567,7 +7567,7 @@
     "location": {
       "column": "6",
       "line": "64",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "display_win",
     "origin": "user_include",
@@ -7581,7 +7581,7 @@
     "location": {
       "column": "6",
       "line": "65",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "display_a",
     "origin": "user_include",
@@ -7595,7 +7595,7 @@
     "location": {
       "column": "6",
       "line": "65",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "display_a",
     "origin": "user_include",
@@ -7609,7 +7609,7 @@
     "location": {
       "column": "6",
       "line": "66",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "display_b",
     "origin": "user_include",
@@ -7623,7 +7623,7 @@
     "location": {
       "column": "6",
       "line": "66",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\LCD.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\LCD.h"
     },
     "name": "display_b",
     "origin": "user_include",
@@ -7637,7 +7637,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "name": "CLOCK",
     "origin": "user_include",
@@ -7651,7 +7651,7 @@
     "location": {
       "column": "9",
       "line": "7",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -7662,7 +7662,7 @@
         "location": {
           "column": "12",
           "line": "17",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_CKM",
         "origin": "user_include",
@@ -7676,7 +7676,7 @@
         "location": {
           "column": "12",
           "line": "18",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_Reserved",
         "origin": "user_include",
@@ -7690,7 +7690,7 @@
         "location": {
           "column": "2",
           "line": "19",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_DIVR_TYPE",
         "origin": "user_include",
@@ -7709,7 +7709,7 @@
     "location": {
       "column": "9",
       "line": "24",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -7720,7 +7720,7 @@
         "location": {
           "column": "12",
           "line": "27",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_RTCSWBSY",
         "origin": "user_include",
@@ -7734,7 +7734,7 @@
         "location": {
           "column": "12",
           "line": "33",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_RTCSEL0",
         "origin": "user_include",
@@ -7748,7 +7748,7 @@
         "location": {
           "column": "12",
           "line": "34",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_RTCSEL1",
         "origin": "user_include",
@@ -7762,7 +7762,7 @@
         "location": {
           "column": "12",
           "line": "35",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_RTCSEL2",
         "origin": "user_include",
@@ -7776,7 +7776,7 @@
         "location": {
           "column": "12",
           "line": "36",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_RTCSEL3",
         "origin": "user_include",
@@ -7790,7 +7790,7 @@
         "location": {
           "column": "12",
           "line": "45",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_RTCDIV0",
         "origin": "user_include",
@@ -7804,7 +7804,7 @@
         "location": {
           "column": "12",
           "line": "46",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_RTCDIV1",
         "origin": "user_include",
@@ -7818,7 +7818,7 @@
         "location": {
           "column": "12",
           "line": "47",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_RTCDIV2",
         "origin": "user_include",
@@ -7832,7 +7832,7 @@
         "location": {
           "column": "2",
           "line": "49",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_CRTCR_TYPE",
         "origin": "user_include",
@@ -7851,7 +7851,7 @@
     "location": {
       "column": "9",
       "line": "54",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -7862,7 +7862,7 @@
         "location": {
           "column": "12",
           "line": "67",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_HSION",
         "origin": "user_include",
@@ -7876,7 +7876,7 @@
         "location": {
           "column": "12",
           "line": "71",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_HSIRDY",
         "origin": "user_include",
@@ -7890,7 +7890,7 @@
         "location": {
           "column": "12",
           "line": "85",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_LSION",
         "origin": "user_include",
@@ -7904,7 +7904,7 @@
         "location": {
           "column": "12",
           "line": "89",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_LSIRDY",
         "origin": "user_include",
@@ -7918,7 +7918,7 @@
         "location": {
           "column": "12",
           "line": "94",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_SAHALT",
         "origin": "user_include",
@@ -7932,7 +7932,7 @@
         "location": {
           "column": "12",
           "line": "100",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_FHWU",
         "origin": "user_include",
@@ -7946,7 +7946,7 @@
         "location": {
           "column": "12",
           "line": "104",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_BEEPAHALT",
         "origin": "user_include",
@@ -7960,7 +7960,7 @@
         "location": {
           "column": "12",
           "line": "106",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_Reserved",
         "origin": "user_include",
@@ -7974,7 +7974,7 @@
         "location": {
           "column": "2",
           "line": "108",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_ICKCR_TYPE",
         "origin": "user_include",
@@ -7993,7 +7993,7 @@
     "location": {
       "column": "9",
       "line": "123",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -8004,7 +8004,7 @@
         "location": {
           "column": "12",
           "line": "124",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN10",
         "origin": "user_include",
@@ -8018,7 +8018,7 @@
         "location": {
           "column": "12",
           "line": "125",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN11",
         "origin": "user_include",
@@ -8032,7 +8032,7 @@
         "location": {
           "column": "12",
           "line": "126",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN12",
         "origin": "user_include",
@@ -8046,7 +8046,7 @@
         "location": {
           "column": "12",
           "line": "127",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN13",
         "origin": "user_include",
@@ -8060,7 +8060,7 @@
         "location": {
           "column": "12",
           "line": "128",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN14",
         "origin": "user_include",
@@ -8074,7 +8074,7 @@
         "location": {
           "column": "12",
           "line": "129",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN15",
         "origin": "user_include",
@@ -8088,7 +8088,7 @@
         "location": {
           "column": "12",
           "line": "130",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN16",
         "origin": "user_include",
@@ -8102,7 +8102,7 @@
         "location": {
           "column": "12",
           "line": "131",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN17",
         "origin": "user_include",
@@ -8116,7 +8116,7 @@
         "location": {
           "column": "2",
           "line": "132",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_PCKENR1_TYPE",
         "origin": "user_include",
@@ -8135,7 +8135,7 @@
     "location": {
       "column": "9",
       "line": "146",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -8146,7 +8146,7 @@
         "location": {
           "column": "12",
           "line": "147",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN20",
         "origin": "user_include",
@@ -8160,7 +8160,7 @@
         "location": {
           "column": "12",
           "line": "148",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN21",
         "origin": "user_include",
@@ -8174,7 +8174,7 @@
         "location": {
           "column": "12",
           "line": "149",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN22",
         "origin": "user_include",
@@ -8188,7 +8188,7 @@
         "location": {
           "column": "12",
           "line": "150",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN23",
         "origin": "user_include",
@@ -8202,7 +8202,7 @@
         "location": {
           "column": "12",
           "line": "151",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN24",
         "origin": "user_include",
@@ -8216,7 +8216,7 @@
         "location": {
           "column": "12",
           "line": "152",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN25",
         "origin": "user_include",
@@ -8230,7 +8230,7 @@
         "location": {
           "column": "12",
           "line": "153",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_Reserved",
         "origin": "user_include",
@@ -8244,7 +8244,7 @@
         "location": {
           "column": "12",
           "line": "156",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_PCKEN27",
         "origin": "user_include",
@@ -8258,7 +8258,7 @@
         "location": {
           "column": "2",
           "line": "158",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_PCKENR2_TYPE",
         "origin": "user_include",
@@ -8277,7 +8277,7 @@
     "location": {
       "column": "9",
       "line": "167",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -8288,7 +8288,7 @@
         "location": {
           "column": "12",
           "line": "173",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_CCOSWBSY",
         "origin": "user_include",
@@ -8302,7 +8302,7 @@
         "location": {
           "column": "12",
           "line": "182",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_CCOSEL",
         "origin": "user_include",
@@ -8316,7 +8316,7 @@
         "location": {
           "column": "12",
           "line": "194",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_CCODIV",
         "origin": "user_include",
@@ -8330,7 +8330,7 @@
         "location": {
           "column": "2",
           "line": "196",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_CCOR_TYPE",
         "origin": "user_include",
@@ -8349,7 +8349,7 @@
     "location": {
       "column": "9",
       "line": "205",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -8360,7 +8360,7 @@
         "location": {
           "column": "13",
           "line": "215",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_HSEON",
         "origin": "user_include",
@@ -8374,7 +8374,7 @@
         "location": {
           "column": "13",
           "line": "219",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_HSERDY",
         "origin": "user_include",
@@ -8388,7 +8388,7 @@
         "location": {
           "column": "13",
           "line": "233",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_LSEON",
         "origin": "user_include",
@@ -8402,7 +8402,7 @@
         "location": {
           "column": "13",
           "line": "238",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_LSERDY",
         "origin": "user_include",
@@ -8416,7 +8416,7 @@
         "location": {
           "column": "13",
           "line": "243",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_HSEBYP",
         "origin": "user_include",
@@ -8430,7 +8430,7 @@
         "location": {
           "column": "13",
           "line": "248",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_LSEBYP",
         "origin": "user_include",
@@ -8444,7 +8444,7 @@
         "location": {
           "column": "13",
           "line": "249",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_Reserved",
         "origin": "user_include",
@@ -8458,7 +8458,7 @@
         "location": {
           "column": "2",
           "line": "251",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_ECKCR_TYPE",
         "origin": "user_include",
@@ -8477,7 +8477,7 @@
     "location": {
       "column": "9",
       "line": "268",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -8488,7 +8488,7 @@
         "location": {
           "column": "12",
           "line": "272",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_SWBSY",
         "origin": "user_include",
@@ -8502,7 +8502,7 @@
         "location": {
           "column": "12",
           "line": "277",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_SWEN",
         "origin": "user_include",
@@ -8516,7 +8516,7 @@
         "location": {
           "column": "12",
           "line": "281",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_SWIEN",
         "origin": "user_include",
@@ -8530,7 +8530,7 @@
         "location": {
           "column": "12",
           "line": "290",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_SWIF",
         "origin": "user_include",
@@ -8544,7 +8544,7 @@
         "location": {
           "column": "12",
           "line": "291",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_Reserved",
         "origin": "user_include",
@@ -8558,7 +8558,7 @@
         "location": {
           "column": "2",
           "line": "293",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_SWCR_TYPE",
         "origin": "user_include",
@@ -8577,7 +8577,7 @@
     "location": {
       "column": "9",
       "line": "302",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -8588,7 +8588,7 @@
         "location": {
           "column": "12",
           "line": "306",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_CSSEN",
         "origin": "user_include",
@@ -8602,7 +8602,7 @@
         "location": {
           "column": "12",
           "line": "310",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_AUX",
         "origin": "user_include",
@@ -8616,7 +8616,7 @@
         "location": {
           "column": "12",
           "line": "314",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_CSSDIE",
         "origin": "user_include",
@@ -8630,7 +8630,7 @@
         "location": {
           "column": "12",
           "line": "318",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_CSSD",
         "origin": "user_include",
@@ -8644,7 +8644,7 @@
         "location": {
           "column": "12",
           "line": "321",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_CSSDGON",
         "origin": "user_include",
@@ -8658,7 +8658,7 @@
         "location": {
           "column": "12",
           "line": "323",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_Reserved",
         "origin": "user_include",
@@ -8672,7 +8672,7 @@
         "location": {
           "column": "2",
           "line": "324",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_CSSR_TYPE",
         "origin": "user_include",
@@ -8691,7 +8691,7 @@
     "location": {
       "column": "9",
       "line": "331",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -8702,7 +8702,7 @@
         "location": {
           "column": "12",
           "line": "334",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_BEEPSWBSY",
         "origin": "user_include",
@@ -8716,7 +8716,7 @@
         "location": {
           "column": "12",
           "line": "341",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_CLKBEEPSEL0",
         "origin": "user_include",
@@ -8730,7 +8730,7 @@
         "location": {
           "column": "12",
           "line": "342",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_CLKBEEPSEL1",
         "origin": "user_include",
@@ -8744,7 +8744,7 @@
         "location": {
           "column": "12",
           "line": "344",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_Reserved",
         "origin": "user_include",
@@ -8758,7 +8758,7 @@
         "location": {
           "column": "2",
           "line": "345",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_CBEEPR_TYPE",
         "origin": "user_include",
@@ -8777,7 +8777,7 @@
     "location": {
       "column": "9",
       "line": "385",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -8788,7 +8788,7 @@
         "location": {
           "column": "12",
           "line": "388",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_REGREADY",
         "origin": "user_include",
@@ -8802,7 +8802,7 @@
         "location": {
           "column": "12",
           "line": "393",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_REGOFF",
         "origin": "user_include",
@@ -8816,7 +8816,7 @@
         "location": {
           "column": "12",
           "line": "397",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_HSIPD",
         "origin": "user_include",
@@ -8830,7 +8830,7 @@
         "location": {
           "column": "12",
           "line": "401",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_LSIPD",
         "origin": "user_include",
@@ -8844,7 +8844,7 @@
         "location": {
           "column": "12",
           "line": "405",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_HSEPD",
         "origin": "user_include",
@@ -8858,7 +8858,7 @@
         "location": {
           "column": "12",
           "line": "409",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_LSEPD",
         "origin": "user_include",
@@ -8872,7 +8872,7 @@
         "location": {
           "column": "12",
           "line": "413",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_EEBUSY",
         "origin": "user_include",
@@ -8886,7 +8886,7 @@
         "location": {
           "column": "12",
           "line": "417",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_EEREADY",
         "origin": "user_include",
@@ -8900,7 +8900,7 @@
         "location": {
           "column": "2",
           "line": "421",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_REGCSR_TYPE",
         "origin": "user_include",
@@ -8919,7 +8919,7 @@
     "location": {
       "column": "9",
       "line": "423",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "members": [
       {
@@ -8930,7 +8930,7 @@
         "location": {
           "column": "17",
           "line": "424",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "DIVR",
         "origin": "user_include",
@@ -8944,7 +8944,7 @@
         "location": {
           "column": "18",
           "line": "425",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CRTCR",
         "origin": "user_include",
@@ -8958,7 +8958,7 @@
         "location": {
           "column": "18",
           "line": "426",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "ICKR",
         "origin": "user_include",
@@ -8972,7 +8972,7 @@
         "location": {
           "column": "20",
           "line": "427",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "PCKENR1",
         "origin": "user_include",
@@ -8986,7 +8986,7 @@
         "location": {
           "column": "20",
           "line": "428",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "PCKENR2",
         "origin": "user_include",
@@ -9000,7 +9000,7 @@
         "location": {
           "column": "17",
           "line": "429",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CCOR",
         "origin": "user_include",
@@ -9014,7 +9014,7 @@
         "location": {
           "column": "18",
           "line": "430",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "ECKR",
         "origin": "user_include",
@@ -9028,7 +9028,7 @@
         "location": {
           "column": "12",
           "line": "431",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_SCSR",
         "origin": "user_include",
@@ -9042,7 +9042,7 @@
         "location": {
           "column": "12",
           "line": "432",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_SWR",
         "origin": "user_include",
@@ -9056,7 +9056,7 @@
         "location": {
           "column": "17",
           "line": "433",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "SWCR",
         "origin": "user_include",
@@ -9070,7 +9070,7 @@
         "location": {
           "column": "17",
           "line": "434",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CSSR",
         "origin": "user_include",
@@ -9084,7 +9084,7 @@
         "location": {
           "column": "19",
           "line": "435",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CBEEPR",
         "origin": "user_include",
@@ -9098,7 +9098,7 @@
         "location": {
           "column": "12",
           "line": "436",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_HSICALR",
         "origin": "user_include",
@@ -9112,7 +9112,7 @@
         "location": {
           "column": "12",
           "line": "437",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_HSITRIMR",
         "origin": "user_include",
@@ -9126,7 +9126,7 @@
         "location": {
           "column": "12",
           "line": "438",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLOCK_HSIUNLCKR",
         "origin": "user_include",
@@ -9140,7 +9140,7 @@
         "location": {
           "column": "19",
           "line": "439",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "REGCSR",
         "origin": "user_include",
@@ -9154,7 +9154,7 @@
         "location": {
           "column": "3",
           "line": "440",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
         },
         "name": "CLK_TYPE",
         "origin": "user_include",
@@ -9173,7 +9173,7 @@
     "location": {
       "column": "9",
       "line": "442",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\CLOCK.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\CLOCK.h"
     },
     "name": "CLK",
     "origin": "user_include",
@@ -9187,7 +9187,7 @@
     "location": {
       "column": "9",
       "line": "6",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
     },
     "members": [
       {
@@ -9198,7 +9198,7 @@
         "location": {
           "column": "11",
           "line": "7",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "BIT0",
         "origin": "user_include",
@@ -9212,7 +9212,7 @@
         "location": {
           "column": "11",
           "line": "8",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "BIT1",
         "origin": "user_include",
@@ -9226,7 +9226,7 @@
         "location": {
           "column": "11",
           "line": "9",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "BIT2",
         "origin": "user_include",
@@ -9240,7 +9240,7 @@
         "location": {
           "column": "11",
           "line": "10",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "BIT3",
         "origin": "user_include",
@@ -9254,7 +9254,7 @@
         "location": {
           "column": "11",
           "line": "11",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "BIT4",
         "origin": "user_include",
@@ -9268,7 +9268,7 @@
         "location": {
           "column": "11",
           "line": "12",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "BIT5",
         "origin": "user_include",
@@ -9282,7 +9282,7 @@
         "location": {
           "column": "11",
           "line": "13",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "BIT6",
         "origin": "user_include",
@@ -9296,7 +9296,7 @@
         "location": {
           "column": "11",
           "line": "14",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "BIT7",
         "origin": "user_include",
@@ -9310,7 +9310,7 @@
         "location": {
           "column": "2",
           "line": "15",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "BYTE_TYPE",
         "origin": "user_include",
@@ -9329,7 +9329,7 @@
     "location": {
       "column": "9",
       "line": "17",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
     },
     "members": [
       {
@@ -9340,7 +9340,7 @@
         "location": {
           "column": "13",
           "line": "18",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "ODR",
         "origin": "user_include",
@@ -9354,7 +9354,7 @@
         "location": {
           "column": "13",
           "line": "19",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "IDR",
         "origin": "user_include",
@@ -9368,7 +9368,7 @@
         "location": {
           "column": "13",
           "line": "20",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "DDR",
         "origin": "user_include",
@@ -9382,7 +9382,7 @@
         "location": {
           "column": "13",
           "line": "21",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "CR1",
         "origin": "user_include",
@@ -9396,7 +9396,7 @@
         "location": {
           "column": "13",
           "line": "22",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "CR2",
         "origin": "user_include",
@@ -9410,7 +9410,7 @@
         "location": {
           "column": "2",
           "line": "23",
-          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+          "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
         },
         "name": "PORT_TYPE",
         "origin": "user_include",
@@ -9429,7 +9429,7 @@
     "location": {
       "column": "9",
       "line": "24",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
     },
     "name": "PA",
     "origin": "user_include",
@@ -9443,7 +9443,7 @@
     "location": {
       "column": "9",
       "line": "26",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
     },
     "name": "PB",
     "origin": "user_include",
@@ -9457,7 +9457,7 @@
     "location": {
       "column": "9",
       "line": "28",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
     },
     "name": "PC",
     "origin": "user_include",
@@ -9471,7 +9471,7 @@
     "location": {
       "column": "9",
       "line": "30",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
     },
     "name": "PD",
     "origin": "user_include",
@@ -9485,7 +9485,7 @@
     "location": {
       "column": "9",
       "line": "32",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
     },
     "name": "PE",
     "origin": "user_include",
@@ -9499,7 +9499,7 @@
     "location": {
       "column": "9",
       "line": "34",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\Lib\\GPIO.h"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\Lib\\GPIO.h"
     },
     "name": "PF",
     "origin": "user_include",
@@ -9513,7 +9513,7 @@
     "location": {
       "column": "9",
       "line": "7",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "PIN_BIT_BANG_DATA",
     "origin": "project_file",
@@ -9527,7 +9527,7 @@
     "location": {
       "column": "9",
       "line": "8",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "PIN_BIT_BANG_CLOCK",
     "origin": "project_file",
@@ -9541,7 +9541,7 @@
     "location": {
       "column": "9",
       "line": "9",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "PIN_ERROR",
     "origin": "project_file",
@@ -9555,7 +9555,7 @@
     "location": {
       "column": "9",
       "line": "14",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "DEVICE_ADDRESS",
     "origin": "project_file",
@@ -9569,7 +9569,7 @@
     "location": {
       "column": "9",
       "line": "15",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "I2C_READ",
     "origin": "project_file",
@@ -9583,7 +9583,7 @@
     "location": {
       "column": "9",
       "line": "16",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "I2C_WRITE",
     "origin": "project_file",
@@ -9597,7 +9597,7 @@
     "location": {
       "column": "15",
       "line": "17",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "_buffer",
     "origin": "project_file",
@@ -9611,7 +9611,7 @@
     "location": {
       "column": "5",
       "line": "18",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "_nextByte",
     "origin": "project_file",
@@ -9625,7 +9625,7 @@
     "location": {
       "column": "6",
       "line": "20",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "Delay",
     "origin": "project_file",
@@ -9639,7 +9639,7 @@
     "location": {
       "column": "12",
       "line": "21",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "time",
     "origin": "project_file",
@@ -9653,7 +9653,7 @@
     "location": {
       "column": "6",
       "line": "24",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "I2C_init_CLOCK",
     "origin": "project_file",
@@ -9667,7 +9667,7 @@
     "location": {
       "column": "6",
       "line": "45",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "InitGpio",
     "origin": "project_file",
@@ -9681,7 +9681,7 @@
     "location": {
       "column": "6",
       "line": "60",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "BitBang",
     "origin": "project_file",
@@ -9695,7 +9695,7 @@
     "location": {
       "column": "16",
       "line": "62",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "bit",
     "origin": "project_file",
@@ -9709,7 +9709,7 @@
     "location": {
       "column": "18",
       "line": "79",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "I2C_IRQHandler",
     "origin": "project_file",
@@ -9723,7 +9723,7 @@
     "location": {
       "column": "5",
       "line": "140",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training-master\\i2c\\main.c"
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "main",
     "origin": "project_file",

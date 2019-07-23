@@ -1,23 +1,22 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     23/Jul/2019  15:12:33
+# IAR ELF Linker V3.11.1.207 for STM8                     23/Jul/2019  15:48:35
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Exe\I2C.out
+#        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Exe\I2C.out
 #    Map file     =  
-#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\List\I2C.map
+#        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\List\I2C.map
 #    Command line =  
-#        -f C:\Users\VietTV1\AppData\Local\Temp\EWE902.tmp
-#        (C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Obj\I2C.o
-#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Obj\LCD.o
-#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Obj\main.o
-#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        -f C:\Users\VietTV1\AppData\Local\Temp\EWE3ED.tmp
+#        (C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj\I2C.o
+#        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj\LCD.o
+#        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj\main.o --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --no_out_extension -o
-#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Exe\I2C.out
-#        --map
-#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\List\I2C.map
-#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Exe\I2C.out --map
+#        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\List\I2C.map --config
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.3\stm8\config\lnkstm8l152c6.icf" --config_def _CSTACK_SIZE=0x100
 #        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
 #
@@ -172,7 +171,7 @@ Zero (__iar_zero_init2)
 
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
-C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Obj: [1]
+C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj: [1]
     I2C.o                       73
     main.o                     307                 4
     ------------------------------------------------
@@ -283,7 +282,7 @@ exit                    0x0082c1   0x3  Code  Gb  exit.o [4]
 main                    0x008256  0x17  Code  Gb  main.o [1]
 
 
-[1] = C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Obj
+[1] = C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj
 [2] = command line
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a
