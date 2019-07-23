@@ -61,3 +61,6 @@ static void activate_dp(ut8);
 static void activate_bar(ut8);
 void display_letter(ut8 digit, ut8 character); 
 void display_number(ut8 digit, ut8 number); 
+void display_win();
+void display_a(ut8 number1, ut8 number2);
+void display_b(ut8 number1, ut8 number2);

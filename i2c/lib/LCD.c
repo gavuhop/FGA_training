@@ -1,22 +1,22 @@
 #include "lcd.h"
 
-LCD_R* LCD_R = (LCD_R*)0x5400;
+LCD_R* lcd_r = (LCD_R*)0x5400;
 LCD_RAMs* ram_group = (LCD_RAMs*)0x540c;
 
 LCD_R* get_LCD_R() 
 {
-	return LCD_R;
+	return lcd_r;
 }
-void reset_LCD_R()
+void reset_lcd_r()
 {
-	LCD_R->CR1 = 0x00;
-	LCD_R->CR2 = 0x00;
-	LCD_R->CR3 = 0x00;
-	LCD_R->FRQ = 0x00;
-	LCD_R->PM0 = 0x00;
-	LCD_R->PM1 = 0x00;
-	LCD_R->PM2 = 0x00;
-	LCD_R->PM3 = 0x00;
+	lcd_r->CR1 = 0x00;
+	lcd_r->CR2 = 0x00;
+	lcd_r->CR3 = 0x00;
+	lcd_r->FRQ = 0x00;
+	lcd_r->PM0 = 0x00;
+	lcd_r->PM1 = 0x00;
+	lcd_r->PM2 = 0x00;
+	lcd_r->PM3 = 0x00;
 }
 
 void reset_LCD_RAMs()
@@ -52,25 +52,25 @@ void configure_RTC_clock()
 /* Calculate frame rate for input frequency of 16.384KHz and duty of 1/4*/
 void configure_LCD_frequencies()
 {
-	LCD_R->FRQ = 0x30; //Set f_LCD = 256Hz and f_frame = 64Hz 
+	lcd_r->FRQ = 0x30; //Set f_LCD = 256Hz and f_frame = 64Hz 
 }
 
 /*Configure port pins to be used as segment driver*/
 void configure_port_pins_for_LCD()
 {
-	LCD_R->PM0 = 0xff; 
-	LCD_R->PM1 = 0xff;
-	LCD_R->PM2 = 0xff;
-	LCD_R->PM3 = 0x00;
+	lcd_r->PM0 = 0xff; 
+	lcd_r->PM1 = 0xff;
+	lcd_r->PM2 = 0xff;
+	lcd_r->PM3 = 0x00;
 }
 void configure_LCD_interrupt()
 {
 	ITC_SPR5 |= 0x03; //Set software prior of LCD interrupt to level 3
-	CLR_B(LCD_R->CR3,5); //Interrupt disable
+	CLR_B(lcd_r->CR3,5); //Interrupt disable
 
 }
 
-static void activate_segment_of_digit(u8 digit, unsigned char segment)
+static void activate_segment_of_digit(ut8 digit, unsigned char segment)
 {
 	switch (digit) {
 	    case 1:
@@ -275,7 +275,7 @@ static void activate_segment_of_digit(u8 digit, unsigned char segment)
 	}
 }
 
-static void activate_colon(u8 colon)
+static void activate_colon(ut8 colon)
 {
 	switch (colon) {
 	    case 1:
@@ -290,7 +290,7 @@ static void activate_colon(u8 colon)
 	}
 }
 
-static void activate_dp(u8 dp)
+static void activate_dp(ut8 dp)
 {
 	switch (dp) {
 	    case 1:
@@ -305,7 +305,7 @@ static void activate_dp(u8 dp)
 	}
 }
 
-static void activate_bar(u8 bar)
+static void activate_bar(ut8 bar)
 {
 	switch (bar) {
 	    case 0:
@@ -320,7 +320,7 @@ static void activate_bar(u8 bar)
 	}
 }
 
-void display_letter(u8 digit, u8 character)
+void display_letter(ut8 digit, ut8 character)
 {
 	switch ((char)character) {
 	    case 'A':
@@ -514,7 +514,7 @@ void display_letter(u8 digit, u8 character)
 	}		
 }
 
-void display_number(u8 digit, u8 number)
+void display_number(ut8 digit, ut8 number)
 {
 	switch (number) {
 	    case 0:
@@ -600,26 +600,59 @@ void display_number(u8 digit, u8 number)
 	}
 }
 
+void display_win()
+{
+		activate_segment_of_digit(2, 'B');
+		activate_segment_of_digit(2, 'C');
+		activate_segment_of_digit(2, 'E');
+		activate_segment_of_digit(2, 'F');
+		activate_segment_of_digit(2, 'Q');
+		activate_segment_of_digit(2, 'N');
+		activate_segment_of_digit(3, 'A');
+		activate_segment_of_digit(3, 'D');
+		activate_segment_of_digit(3, 'J');
+		activate_segment_of_digit(3, 'P');
+		activate_segment_of_digit(4, 'B');
+		activate_segment_of_digit(4, 'C');
+		activate_segment_of_digit(4, 'E');
+		activate_segment_of_digit(4, 'F');
+		activate_segment_of_digit(4, 'H');
+		activate_segment_of_digit(4, 'N');
+}
+void display_a(ut8 number1, ut8 number2)
+{
+	display_letter(1, 'A');
+	activate_colon(1);
+	display_number(2, number1);
+	display_number(2, number2);		
+}
+void display_b(ut8 number1, ut8 number2)
+{
+	display_letter(1, 'B');
+	activate_colon(1);
+	display_number(2, number1);
+	display_number(2, number2);		
+}
 void init_LCD()
 {
 	enable_clock_for_LCD();
 	configure_RTC_clock();
 	
-	reset_LCD_R();
+	reset_lcd_r();
 	reset_LCD_RAMs();
 	
-	CLR_B(LCD_R->CR1,0);
+	CLR_B(lcd_r->CR1,0);
 	
 	/* Select 1/4 duty ratio */
-	SET_BIT(LCD_R->CR1,1);
-	SET_BIT(LCD_R->CR1,2);
+	SET_BIT(lcd_r->CR1,1);
+	SET_BIT(lcd_r->CR1,2);
 	
 	configure_LCD_frequencies();
 	configure_port_pins_for_LCD();
 	
-	SET_BIT(LCD_R->CR2,3); // Set contrast level
-	SET_BIT(LCD_R->CR2,4); // High drive permanent enable
+	SET_BIT(lcd_r->CR2,3); // Set contrast level
+	SET_BIT(lcd_r->CR2,4); // High drive permanent enable
 	configure_LCD_interrupt();
 	/* Enable LCD controler */
-	SET_BIT(LCD_R->CR3,6);
+	SET_BIT(lcd_r->CR3,6);
 }

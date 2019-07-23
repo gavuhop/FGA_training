@@ -1,27 +1,24 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.10.1.201 for STM8                     21/Jul/2019  15:38:40
-# Copyright 2010-2017 IAR Systems AB.
+# IAR ELF Linker V3.11.1.207 for STM8                     23/Jul/2019  15:12:33
+# Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Users\vitco\OneDrive\Máy
-#        tính\FGA_training-master\FGA_training\i2c\Debug\Exe\I2C.out
+#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Exe\I2C.out
 #    Map file     =  
-#        C:\Users\vitco\OneDrive\Máy
-#        tính\FGA_training-master\FGA_training\i2c\Debug\List\I2C.map
+#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\List\I2C.map
 #    Command line =  
-#        -f C:\Users\vitco\AppData\Local\Temp\EW8A73.tmp
-#        ("C:\Users\vitco\OneDrive\Máy
-#        tính\FGA_training-master\FGA_training\i2c\Debug\Obj\I2C.o"
-#        "C:\Users\vitco\OneDrive\Máy
-#        tính\FGA_training-master\FGA_training\i2c\Debug\Obj\main.o" --redirect
-#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb -o
-#        "C:\Users\vitco\OneDrive\Máy
-#        tính\FGA_training-master\FGA_training\i2c\Debug\Exe\I2C.out" --map
-#        "C:\Users\vitco\OneDrive\Máy
-#        tính\FGA_training-master\FGA_training\i2c\Debug\List\I2C.map" --config
-#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
-#        8.0\stm8\config\lnkstm8l152c6.icf" --config_def _CSTACK_SIZE=0x100
+#        -f C:\Users\VietTV1\AppData\Local\Temp\EWE902.tmp
+#        (C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Obj\I2C.o
+#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Obj\LCD.o
+#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Obj\main.o
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --no_out_extension -o
+#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Exe\I2C.out
+#        --map
+#        C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\List\I2C.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.3\stm8\config\lnkstm8l152c6.icf" --config_def _CSTACK_SIZE=0x100
 #        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
 #
 ###############################################################################
@@ -45,6 +42,14 @@ __rt_version               = 4
 
 "A0":  place at start of [0x000000-0x0000ff] { rw section .vregs };
 "A1":  place at end of [0x000000-0x0007ff] { block CSTACK };
+"P2":  place in [from 0x000000 to 0x0007ff] {
+          block HEAP, rw section __DLIB_PERTHREAD, rw section .far.bss,
+          rw section .far.data, rw section .far.noinit,
+          rw section .far_func.textrw, rw section .huge.bss,
+          rw section .huge.data, rw section .huge.noinit,
+          rw section .huge_func.textrw, rw section .iar.dynexit,
+          rw section .near.bss, rw section .near.data, rw section .near.noinit,
+          rw section .near_func.textrw };
 "A2":  place at start of [0x008000-0x00ffff] { block INTVEC };
 "P3":  place in [from 0x008000 to 0x00ffff] {
           ro section __DLIB_PERTHREAD_init, ro section .far.data_init,
@@ -62,11 +67,56 @@ do not initialize {
    rw section .eeprom.noinit, rw section .far.noinit, rw section .huge.noinit,
    rw section .near.noinit, rw section .tiny.noinit, rw section .vregs };
 
+No sections matched the following patterns:
+
+  ro section .far.data_init          in "P3-P5"
+  ro section .far.rodata             in "P3-P5"
+  ro section .far_func.text          in "P3-P5"
+  ro section .far_func.textrw_init   in "P3-P5"
+  ro section .huge.data_init         in "P3-P5"
+  ro section .huge.rodata            in "P3-P5"
+  ro section .huge_func.text         in "P3-P5"
+  ro section .huge_func.textrw_init  in "P3-P5"
+  ro section .iar.init_table         in "P3-P5"
+  ro section .init_array             in "P3-P5"
+  ro section .near.data_init         in "P3-P5"
+  ro section .near.rodata            in "P3-P5"
+  ro section .near_func.textrw_init  in "P3-P5"
+  ro section .tiny.data_init         in "P3-P5"
+  ro section .tiny.rodata_init       in "P3-P5"
+  ro section __DLIB_PERTHREAD_init   in "P3-P5"
+  rw section .far.bss                in "P2"
+  rw section .far.data               in "P2"
+  rw section .far.noinit             in "P2"
+  rw section .far_func.textrw        in "P2"
+  rw section .huge.bss               in "P2"
+  rw section .huge.data              in "P2"
+  rw section .huge.noinit            in "P2"
+  rw section .huge_func.textrw       in "P2"
+  rw section .iar.dynexit            in "P2"
+  rw section .near.data              in "P2"
+  rw section .near.noinit            in "P2"
+  rw section .near_func.textrw       in "P2"
+  rw section .tiny.bss               in "P1"
+  rw section .tiny.data              in "P1"
+  rw section .tiny.noinit            in "P1"
+  rw section .tiny.rodata            in "P1"
+  rw section __DLIB_PERTHREAD        in "P2"
+  section .eeprom.data               in "P6-P8"
+  section .eeprom.noinit             in "P6-P8"
+  section .eeprom.rodata             in "P6-P8"
+
+
   Section          Kind      Address   Size  Object
   -------          ----      -------   ----  ------
 "A0":                                   0xc
   .vregs           uninit   0x000000    0xc  vregs.o [4]
                           - 0x00000c    0xc
+
+"P2":                                   0x4
+  .near.bss        zero     0x00000c    0x2  main.o [1]
+  .near.bss        zero     0x00000e    0x2  main.o [1]
+                          - 0x000010    0x4
 
 "A1":                                 0x100
   CSTACK                    0x000700  0x100  <Block>
@@ -78,19 +128,41 @@ do not initialize {
     .intvec        const    0x008000   0x80  interrupt.o [4]
                           - 0x008080   0x80
 
-"P3-P5":                               0x67
-  .near_func.text  ro code  0x008080   0x18  vreg_util.o [4]
-  .near_func.text  ro code  0x008098   0x14  init.o [4]
-  .near_func.text  ro code  0x0080ac   0x14  __dbg_xxexit.o [3]
-  .near_func.text  ro code  0x0080c0   0x13  cstartup.o [4]
-  .near_func.text  ro code  0x0080d3    0x5  cexit.o [4]
-  .near_func.text  ro code  0x0080d8    0x3  interrupt.o [4]
-  .near_func.text  ro code  0x0080db    0x3  low_level_init.o [4]
-  .near_func.text  ro code  0x0080de    0x3  exit.o [4]
-  .near_func.text  ro code  0x0080e1    0x3  unhandled_exception.o [4]
-  .near_func.text  ro code  0x0080e4    0x2  main.o [1]
-  .near_func.text  ro code  0x0080e6    0x1  __dbg_break.o [3]
-                          - 0x0080e7   0x67
+"P3-P5":                              0x248
+  .near_func.text  ro code  0x008080   0x7c  main.o [1]
+  .near_func.text  ro code  0x0080fc   0x49  I2C.o [1]
+  .near_func.text  ro code  0x008145   0x35  main.o [1]
+  .near_func.text  ro code  0x00817a   0x32  vreg_util.o [4]
+  .near_func.text  ro code  0x0081ac   0x29  main.o [1]
+  .near_func.text  ro code  0x0081d5   0x22  main.o [1]
+  .iar.init_table  const    0x0081f7    0x8  - Linker created -
+  .near_func.text  ro code  0x0081ff   0x20  main.o [1]
+  .near_func.text  ro code  0x00821f   0x1e  init_small.o [4]
+  .near_func.text  ro code  0x00823d   0x19  long.o [4]
+  .near_func.text  ro code  0x008256   0x17  main.o [1]
+  .near_func.text  ro code  0x00826d   0x14  init.o [4]
+  .near_func.text  ro code  0x008281   0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x008295   0x13  cstartup.o [4]
+  .near_func.text  ro code  0x0082a8    0x8  short.o [4]
+  .near_func.text  ro code  0x0082b0    0x6  char.o [4]
+  .near_func.text  ro code  0x0082b6    0x5  cexit.o [4]
+  .near_func.text  ro code  0x0082bb    0x3  interrupt.o [4]
+  .near_func.text  ro code  0x0082be    0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x0082c1    0x3  exit.o [4]
+  .near_func.text  ro code  0x0082c4    0x3  unhandled_exception.o [4]
+  .near_func.text  ro code  0x0082c7    0x1  __dbg_break.o [3]
+                          - 0x0082c8  0x248
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Zero (__iar_zero_init2)
+    1 destination range, total size 0x4:
+          0x00000c   0x4
 
 
 
@@ -100,10 +172,11 @@ do not initialize {
 
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
-C:\Users\vitco\OneDrive\Máy tính\FGA_training-master\FGA_training\i2c\Debug\Obj: [1]
-    main.o                       2
+C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Obj: [1]
+    I2C.o                       73
+    main.o                     307                 4
     ------------------------------------------------
-    Total:                       2
+    Total:                     380                 4
 
 command line: [2]
     ------------------------------------------------
@@ -117,20 +190,24 @@ dbgstm8smd.a: [3]
 
 dlstm8smn.a: [4]
     cexit.o                      5
+    char.o                       6
     cstartup.o                  19
     exit.o                       3
     init.o                      20
+    init_small.o                30
     interrupt.o                  3      128
+    long.o                      25
     low_level_init.o             3
+    short.o                      8
     unhandled_exception.o        3
-    vreg_util.o                 24
+    vreg_util.o                 50
     vregs.o                                       12
     ------------------------------------------------
-    Total:                      80      128       12
+    Total:                     175      128       12
 
-    Linker created                               256
+    Linker created                        8      256
 ----------------------------------------------------
-    Grand Total:               103      128      268
+    Grand Total:               576      136      272
 
 
 *******************************************************************************
@@ -139,6 +216,8 @@ dlstm8smn.a: [4]
 
 Entry                    Address  Size  Type      Object
 -----                    -------  ----  ----      ------
+.iar.init_table$$Base   0x0081f7         --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0081ff         --   Gb  - Linker created -
 ?b0                     0x000000        Data  Gb  vregs.o [4]
 ?b1                     0x000001        Data  Gb  vregs.o [4]
 ?b10                    0x00000a        Data  Gb  vregs.o [4]
@@ -151,46 +230,67 @@ Entry                    Address  Size  Type      Object
 ?b7                     0x000007        Data  Gb  vregs.o [4]
 ?b8                     0x000008        Data  Gb  vregs.o [4]
 ?b9                     0x000009        Data  Gb  vregs.o [4]
+?dec32_0x_0x            0x008242        Code  Gb  long.o [4]
+?dec32_l0_l0            0x00823d        Code  Gb  long.o [4]
 ?e0                     0x000001        Data  Gb  vregs.o [4]
 ?e1                     0x000005        Data  Gb  vregs.o [4]
 ?e2                     0x000009        Data  Gb  vregs.o [4]
 ?l0                     0x000000        Data  Gb  vregs.o [4]
 ?l1                     0x000004        Data  Gb  vregs.o [4]
 ?l2                     0x000008        Data  Gb  vregs.o [4]
-?push_w4                0x008080        Code  Gb  vreg_util.o [4]
+?mov_e0_e1              0x008195        Code  Gb  vreg_util.o [4]
+?mov_e1_e0              0x0081a2        Code  Gb  vreg_util.o [4]
+?mov_l0_l1              0x008192        Code  Gb  vreg_util.o [4]
+?mov_l1_l0              0x00819f        Code  Gb  vreg_util.o [4]
+?mov_w1_w3              0x008198        Code  Gb  vreg_util.o [4]
+?mov_w3_w1              0x0081a5        Code  Gb  vreg_util.o [4]
+?push_w4                0x00817a        Code  Gb  vreg_util.o [4]
+?sll16_x_x_a            0x0082a8        Code  Gb  short.o [4]
+?srl8_a_a_5             0x0082b1        Code  Gb  char.o [4]
+?srl8_a_a_6             0x0082b0        Code  Gb  char.o [4]
 ?w0                     0x000000        Data  Gb  vregs.o [4]
 ?w1                     0x000002        Data  Gb  vregs.o [4]
 ?w2                     0x000004        Data  Gb  vregs.o [4]
 ?w3                     0x000006        Data  Gb  vregs.o [4]
 ?w4                     0x000008        Data  Gb  vregs.o [4]
 ?w5                     0x00000a        Data  Gb  vregs.o [4]
+BitBang                 0x008145  0x35  Code  Gb  main.o [1]
 CSTACK$$Base            0x000700         --   Gb  - Linker created -
 CSTACK$$Limit           0x000800         --   Gb  - Linker created -
+Delay                   0x0081ff  0x20  Code  Gb  main.o [1]
+I2C_IRQHandler          0x008080  0x7c  Code  Gb  main.o [1]
+I2C_init_CLOCK          0x0081d5  0x22  Code  Gb  main.o [1]
 INTVEC$$Base            0x008000         --   Gb  - Linker created -
 INTVEC$$Limit           0x008080         --   Gb  - Linker created -
-Region$$Table$$Base   0x00000000         --   Gb  - Linker created -
-Region$$Table$$Limit  0x00000000         --   Gb  - Linker created -
-__DebugBreak            0x0080e6   0x1  Code  Gb  __dbg_break.o [3]
-__exit                  0x0080ac  0x14  Code  Gb  __dbg_xxexit.o [3]
-__iar_data_init2        0x008098  0x14  Code  Gb  init.o [4]
-__iar_program_start     0x0080c0        Code  Gb  cstartup.o [4]
+InitGpio                0x0081ac  0x29  Code  Gb  main.o [1]
+InitI2C_Master          0x0080fc  0x49  Code  Gb  I2C.o [1]
+Region$$Table$$Base     0x0081f7         --   Gb  - Linker created -
+Region$$Table$$Limit    0x0081ff         --   Gb  - Linker created -
+__DebugBreak            0x0082c7   0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x008281  0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_data_init2        0x00826d  0x14  Code  Gb  init.o [4]
+__iar_program_start     0x008295        Code  Gb  cstartup.o [4]
 __iar_unhandled_exception
-                        0x0080e1        Code  Gb  unhandled_exception.o [4]
+                        0x0082c4        Code  Gb  unhandled_exception.o [4]
+__iar_zero_init2        0x00821f        Code  Gb  init_small.o [4]
 __intvec                0x008000        Data  Gb  interrupt.o [4]
-__low_level_init        0x0080db   0x3  Code  Gb  low_level_init.o [4]
-_exit                   0x0080d3        Code  Gb  cexit.o [4]
-exit                    0x0080de   0x3  Code  Gb  exit.o [4]
-main                    0x0080e4   0x2  Code  Gb  main.o [1]
+__low_level_init        0x0082be   0x3  Code  Gb  low_level_init.o [4]
+_buffer                 0x00000c   0x2  Data  Gb  main.o [1]
+_exit                   0x0082b6        Code  Gb  cexit.o [4]
+_interrupt_31           0x008080        Code  Gb  main.o [1]
+_nextByte               0x00000e   0x2  Data  Gb  main.o [1]
+exit                    0x0082c1   0x3  Code  Gb  exit.o [4]
+main                    0x008256  0x17  Code  Gb  main.o [1]
 
 
-[1] = C:\Users\vitco\OneDrive\Máy tính\FGA_training-master\FGA_training\i2c\Debug\Obj
+[1] = C:\Users\VietTV1\Desktop\FGA_training-master\i2c\Debug\Obj
 [2] = command line
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a
 
-  103 bytes of readonly  code memory
-  128 bytes of readonly  data memory
-  268 bytes of readwrite data memory
+  576 bytes of readonly  code memory
+  136 bytes of readonly  data memory
+  272 bytes of readwrite data memory
 
 Errors: none
 Warnings: none
