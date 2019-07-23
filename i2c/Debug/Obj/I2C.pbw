@@ -9666,7 +9666,7 @@
     "display": "void InitGpio(void)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "37",
       "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "InitGpio",
@@ -9680,7 +9680,7 @@
     "display": "void BitBang(unsigned char)",
     "location": {
       "column": "6",
-      "line": "60",
+      "line": "52",
       "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "BitBang",
@@ -9688,13 +9688,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2140@F@BitBang@bit",
+    "ID": "c:main.c@1654@F@BitBang@bit",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit",
     "location": {
       "column": "16",
-      "line": "62",
+      "line": "54",
       "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "bit",
@@ -9708,7 +9708,7 @@
     "display": "void I2C_IRQHandler(void)",
     "location": {
       "column": "18",
-      "line": "79",
+      "line": "71",
       "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "I2C_IRQHandler",
@@ -9722,7 +9722,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "140",
+      "line": "134",
       "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "main",

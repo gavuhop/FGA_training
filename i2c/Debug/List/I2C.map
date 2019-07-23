@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     23/Jul/2019  15:48:35
+# IAR ELF Linker V3.11.1.207 for STM8                     23/Jul/2019  16:26:00
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\List\I2C.map
 #    Command line =  
-#        -f C:\Users\VietTV1\AppData\Local\Temp\EWE3ED.tmp
+#        -f C:\Users\VietTV1\AppData\Local\Temp\EW27EC.tmp
 #        (C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj\I2C.o
 #        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj\LCD.o
 #        C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj\main.o --redirect
@@ -127,30 +127,28 @@ No sections matched the following patterns:
     .intvec        const    0x008000   0x80  interrupt.o [4]
                           - 0x008080   0x80
 
-"P3-P5":                              0x248
-  .near_func.text  ro code  0x008080   0x7c  main.o [1]
-  .near_func.text  ro code  0x0080fc   0x49  I2C.o [1]
-  .near_func.text  ro code  0x008145   0x35  main.o [1]
-  .near_func.text  ro code  0x00817a   0x32  vreg_util.o [4]
-  .near_func.text  ro code  0x0081ac   0x29  main.o [1]
-  .near_func.text  ro code  0x0081d5   0x22  main.o [1]
-  .iar.init_table  const    0x0081f7    0x8  - Linker created -
-  .near_func.text  ro code  0x0081ff   0x20  main.o [1]
-  .near_func.text  ro code  0x00821f   0x1e  init_small.o [4]
-  .near_func.text  ro code  0x00823d   0x19  long.o [4]
-  .near_func.text  ro code  0x008256   0x17  main.o [1]
-  .near_func.text  ro code  0x00826d   0x14  init.o [4]
-  .near_func.text  ro code  0x008281   0x14  __dbg_xxexit.o [3]
-  .near_func.text  ro code  0x008295   0x13  cstartup.o [4]
-  .near_func.text  ro code  0x0082a8    0x8  short.o [4]
-  .near_func.text  ro code  0x0082b0    0x6  char.o [4]
-  .near_func.text  ro code  0x0082b6    0x5  cexit.o [4]
-  .near_func.text  ro code  0x0082bb    0x3  interrupt.o [4]
-  .near_func.text  ro code  0x0082be    0x3  low_level_init.o [4]
-  .near_func.text  ro code  0x0082c1    0x3  exit.o [4]
-  .near_func.text  ro code  0x0082c4    0x3  unhandled_exception.o [4]
-  .near_func.text  ro code  0x0082c7    0x1  __dbg_break.o [3]
-                          - 0x0082c8  0x248
+"P3-P5":                              0x202
+  .near_func.text  ro code  0x008080   0x8c  main.o [1]
+  .near_func.text  ro code  0x00810c   0x49  I2C.o [1]
+  .near_func.text  ro code  0x008155   0x35  main.o [1]
+  .near_func.text  ro code  0x00818a   0x29  main.o [1]
+  .near_func.text  ro code  0x0081b3   0x22  main.o [1]
+  .iar.init_table  const    0x0081d5    0x8  - Linker created -
+  .near_func.text  ro code  0x0081dd   0x1e  init_small.o [4]
+  .near_func.text  ro code  0x0081fb   0x18  vreg_util.o [4]
+  .near_func.text  ro code  0x008213   0x14  main.o [1]
+  .near_func.text  ro code  0x008227   0x14  init.o [4]
+  .near_func.text  ro code  0x00823b   0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x00824f   0x13  cstartup.o [4]
+  .near_func.text  ro code  0x008262    0x8  short.o [4]
+  .near_func.text  ro code  0x00826a    0x6  char.o [4]
+  .near_func.text  ro code  0x008270    0x5  cexit.o [4]
+  .near_func.text  ro code  0x008275    0x3  interrupt.o [4]
+  .near_func.text  ro code  0x008278    0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x00827b    0x3  exit.o [4]
+  .near_func.text  ro code  0x00827e    0x3  unhandled_exception.o [4]
+  .near_func.text  ro code  0x008281    0x1  __dbg_break.o [3]
+                          - 0x008282  0x202
 
 
 *******************************************************************************
@@ -173,9 +171,9 @@ Zero (__iar_zero_init2)
     ------                 -------  -------  -------
 C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj: [1]
     I2C.o                       73
-    main.o                     307                 4
+    main.o                     288                 4
     ------------------------------------------------
-    Total:                     380                 4
+    Total:                     361                 4
 
 command line: [2]
     ------------------------------------------------
@@ -195,18 +193,17 @@ dlstm8smn.a: [4]
     init.o                      20
     init_small.o                30
     interrupt.o                  3      128
-    long.o                      25
     low_level_init.o             3
     short.o                      8
     unhandled_exception.o        3
-    vreg_util.o                 50
+    vreg_util.o                 24
     vregs.o                                       12
     ------------------------------------------------
-    Total:                     175      128       12
+    Total:                     124      128       12
 
     Linker created                        8      256
 ----------------------------------------------------
-    Grand Total:               576      136      272
+    Grand Total:               506      136      272
 
 
 *******************************************************************************
@@ -215,8 +212,8 @@ dlstm8smn.a: [4]
 
 Entry                    Address  Size  Type      Object
 -----                    -------  ----  ----      ------
-.iar.init_table$$Base   0x0081f7         --   Gb  - Linker created -
-.iar.init_table$$Limit  0x0081ff         --   Gb  - Linker created -
+.iar.init_table$$Base   0x0081d5         --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0081dd         --   Gb  - Linker created -
 ?b0                     0x000000        Data  Gb  vregs.o [4]
 ?b1                     0x000001        Data  Gb  vregs.o [4]
 ?b10                    0x00000a        Data  Gb  vregs.o [4]
@@ -229,57 +226,48 @@ Entry                    Address  Size  Type      Object
 ?b7                     0x000007        Data  Gb  vregs.o [4]
 ?b8                     0x000008        Data  Gb  vregs.o [4]
 ?b9                     0x000009        Data  Gb  vregs.o [4]
-?dec32_0x_0x            0x008242        Code  Gb  long.o [4]
-?dec32_l0_l0            0x00823d        Code  Gb  long.o [4]
 ?e0                     0x000001        Data  Gb  vregs.o [4]
 ?e1                     0x000005        Data  Gb  vregs.o [4]
 ?e2                     0x000009        Data  Gb  vregs.o [4]
 ?l0                     0x000000        Data  Gb  vregs.o [4]
 ?l1                     0x000004        Data  Gb  vregs.o [4]
 ?l2                     0x000008        Data  Gb  vregs.o [4]
-?mov_e0_e1              0x008195        Code  Gb  vreg_util.o [4]
-?mov_e1_e0              0x0081a2        Code  Gb  vreg_util.o [4]
-?mov_l0_l1              0x008192        Code  Gb  vreg_util.o [4]
-?mov_l1_l0              0x00819f        Code  Gb  vreg_util.o [4]
-?mov_w1_w3              0x008198        Code  Gb  vreg_util.o [4]
-?mov_w3_w1              0x0081a5        Code  Gb  vreg_util.o [4]
-?push_w4                0x00817a        Code  Gb  vreg_util.o [4]
-?sll16_x_x_a            0x0082a8        Code  Gb  short.o [4]
-?srl8_a_a_5             0x0082b1        Code  Gb  char.o [4]
-?srl8_a_a_6             0x0082b0        Code  Gb  char.o [4]
+?push_w4                0x0081fb        Code  Gb  vreg_util.o [4]
+?sll16_x_x_a            0x008262        Code  Gb  short.o [4]
+?srl8_a_a_5             0x00826b        Code  Gb  char.o [4]
+?srl8_a_a_6             0x00826a        Code  Gb  char.o [4]
 ?w0                     0x000000        Data  Gb  vregs.o [4]
 ?w1                     0x000002        Data  Gb  vregs.o [4]
 ?w2                     0x000004        Data  Gb  vregs.o [4]
 ?w3                     0x000006        Data  Gb  vregs.o [4]
 ?w4                     0x000008        Data  Gb  vregs.o [4]
 ?w5                     0x00000a        Data  Gb  vregs.o [4]
-BitBang                 0x008145  0x35  Code  Gb  main.o [1]
+BitBang                 0x008155  0x35  Code  Gb  main.o [1]
 CSTACK$$Base            0x000700         --   Gb  - Linker created -
 CSTACK$$Limit           0x000800         --   Gb  - Linker created -
-Delay                   0x0081ff  0x20  Code  Gb  main.o [1]
-I2C_IRQHandler          0x008080  0x7c  Code  Gb  main.o [1]
-I2C_init_CLOCK          0x0081d5  0x22  Code  Gb  main.o [1]
+I2C_IRQHandler          0x008080  0x8c  Code  Gb  main.o [1]
+I2C_init_CLOCK          0x0081b3  0x22  Code  Gb  main.o [1]
 INTVEC$$Base            0x008000         --   Gb  - Linker created -
 INTVEC$$Limit           0x008080         --   Gb  - Linker created -
-InitGpio                0x0081ac  0x29  Code  Gb  main.o [1]
-InitI2C_Master          0x0080fc  0x49  Code  Gb  I2C.o [1]
-Region$$Table$$Base     0x0081f7         --   Gb  - Linker created -
-Region$$Table$$Limit    0x0081ff         --   Gb  - Linker created -
-__DebugBreak            0x0082c7   0x1  Code  Gb  __dbg_break.o [3]
-__exit                  0x008281  0x14  Code  Gb  __dbg_xxexit.o [3]
-__iar_data_init2        0x00826d  0x14  Code  Gb  init.o [4]
-__iar_program_start     0x008295        Code  Gb  cstartup.o [4]
+InitGpio                0x00818a  0x29  Code  Gb  main.o [1]
+InitI2C_Master          0x00810c  0x49  Code  Gb  I2C.o [1]
+Region$$Table$$Base     0x0081d5         --   Gb  - Linker created -
+Region$$Table$$Limit    0x0081dd         --   Gb  - Linker created -
+__DebugBreak            0x008281   0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x00823b  0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_data_init2        0x008227  0x14  Code  Gb  init.o [4]
+__iar_program_start     0x00824f        Code  Gb  cstartup.o [4]
 __iar_unhandled_exception
-                        0x0082c4        Code  Gb  unhandled_exception.o [4]
-__iar_zero_init2        0x00821f        Code  Gb  init_small.o [4]
+                        0x00827e        Code  Gb  unhandled_exception.o [4]
+__iar_zero_init2        0x0081dd        Code  Gb  init_small.o [4]
 __intvec                0x008000        Data  Gb  interrupt.o [4]
-__low_level_init        0x0082be   0x3  Code  Gb  low_level_init.o [4]
+__low_level_init        0x008278   0x3  Code  Gb  low_level_init.o [4]
 _buffer                 0x00000c   0x2  Data  Gb  main.o [1]
-_exit                   0x0082b6        Code  Gb  cexit.o [4]
+_exit                   0x008270        Code  Gb  cexit.o [4]
 _interrupt_31           0x008080        Code  Gb  main.o [1]
 _nextByte               0x00000e   0x2  Data  Gb  main.o [1]
-exit                    0x0082c1   0x3  Code  Gb  exit.o [4]
-main                    0x008256  0x17  Code  Gb  main.o [1]
+exit                    0x00827b   0x3  Code  Gb  exit.o [4]
+main                    0x008213  0x14  Code  Gb  main.o [1]
 
 
 [1] = C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj
@@ -287,7 +275,7 @@ main                    0x008256  0x17  Code  Gb  main.o [1]
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a
 
-  576 bytes of readonly  code memory
+  506 bytes of readonly  code memory
   136 bytes of readonly  data memory
   272 bytes of readwrite data memory
 

@@ -31,15 +31,7 @@ void I2C_init_CLOCK(){
        CLK->CLOCK_SWR = 0x01;                     //  Use HSI as the clock source.
        CLK->SWCR.CLOCK_SWEN = 1;                  //  Enable switching.
        while (CLK->SWCR.CLOCK_SWBSY != 0);        //  Pause while the clock switch is busy.
-        
-  //      while (CLK->SWCR.CLOCK_SWBSY);      //wait when clock switch on going
-  //CLK->SWCR.CLOCK_SWEN =1;             //enable switch clock
-  //CLK->CLOCK_SWR =0x01;                    //select HSI
-  //while (CLK->CLOCK_SCSR !=0x01);          //wait for HSI selected
-  //CLK->DIVR.CLOCK_CKM =0x0;            //000: System clock source/1  
-  //CLK->PCKENR2.CLOCK_PCKEN23 =1;       //enable clock for lcd
-  //CLK->PCKENR1.CLOCK_PCKEN13 =1;       //enable clock for i2c
-        
+   
 }
 
 void InitGpio(){
@@ -47,7 +39,7 @@ void InitGpio(){
   PC->DDR.BIT0=1;            //OUITPUT            
   PC->CR1.BIT0=1;            //PUSH-PULL
   PC->CR2.BIT0=1;            //
- 
+  //SCL
   PC->DDR.BIT1=0;            //OUITPUT            
   PC->CR1.BIT1=1;            //PUSH-PULL
   PC->CR2.BIT1=1;            //
@@ -113,11 +105,13 @@ __interrupt void I2C_IRQHandler()
         _buffer[_nextByte++] = I2C->I2C1_DR.I2C_DR;
         if (_nextByte == 1)
         {
+            PE->ODR.BIT7 ^=1;
             I2C->I2C1_CR2.I2C_ACK = 0;
             I2C->I2C1_CR2.I2C_STOP = 1;
         }
         else
         {
+            PE->ODR.BIT7 ^=1;
             BitBang(_buffer[0]);
             BitBang(_buffer[1]);
         }
@@ -148,7 +142,8 @@ int main( void ){
   
   while(1){
       PC->ODR.BIT7 ^=1;
-      Delay();
+      //Delay();
+      
   }
   
   
