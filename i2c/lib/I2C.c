@@ -15,7 +15,7 @@ void I2C1_Write(uint8_t data){
 void I2C1_Start(){
   I2C->I2C1_CR2.I2C_START=1;
   I2C->I2C1_CR2.I2C_ACK=1;
-  while (!I2C->I2C1_SR1.I2C_SB);
+ while (!I2C->I2C1_SR1.I2C_SB);
 }
 void I2C1_Stop(){
   I2C->I2C1_CR2.I2C_STOP=1;

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\common\bin\cspybat" -f "C:\Users\VietTV1\Desktop\FGA_training\i2c\settings\I2C.Debug.general.xcl" --backend -f "C:\Users\VietTV1\Desktop\FGA_training\i2c\settings\I2C.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\common\bin\cspybat" -f "C:\Users\VietTV1\Desktop\FGA_training\SPI\settings\SPI.Debug.general.xcl" --backend -f "C:\Users\VietTV1\Desktop\FGA_training\SPI\settings\SPI.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\common\bin\cspybat" -f "C:\Users\VietTV1\Desktop\FGA_training\i2c\settings\I2C.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\VietTV1\Desktop\FGA_training\i2c\settings\I2C.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\common\bin\cspybat" -f "C:\Users\VietTV1\Desktop\FGA_training\SPI\settings\SPI.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\VietTV1\Desktop\FGA_training\SPI\settings\SPI.Debug.driver.xcl" 
 
 @echo off 
 :end

@@ -5078,7 +5078,7 @@
     "scope": null
   },
   {
-    "ID": "c:I2C.c@518@F@I2C1_Select_Slave@data",
+    "ID": "c:I2C.c@519@F@I2C1_Select_Slave@data",
     "What": "Variable",
     "defdec": "Def",
     "display": "data",
@@ -9670,48 +9670,6 @@
       "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
     },
     "name": "InitGpio",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BitBang",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void BitBang(unsigned char)",
-    "location": {
-      "column": "6",
-      "line": "54",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
-    },
-    "name": "BitBang",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1695@F@BitBang@bit",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "bit",
-    "location": {
-      "column": "16",
-      "line": "56",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
-    },
-    "name": "bit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_IRQHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void I2C_IRQHandler(void)",
-    "location": {
-      "column": "18",
-      "line": "73",
-      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\i2c\\main.c"
-    },
-    "name": "I2C_IRQHandler",
     "origin": "project_file",
     "scope": null
   },

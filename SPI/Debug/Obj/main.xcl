@@ -1,14 +1,14 @@
-"C:\Users\VietTV1\Desktop\FGA_training\i2c\Lib\LCD.c"
+"C:\Users\VietTV1\Desktop\FGA_training\SPI\main.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\VietTV1\Desktop\FGA_training\i2c\Debug\Obj\LCD.pbi.dep
+C:\Users\VietTV1\Desktop\FGA_training\SPI\Debug\Obj\main.pbi.dep
 -o
-LCD.pbi
+main.pbi
 -I
-C:\Users\VietTV1\Desktop\FGA_training\i2c\Lib
+C:\Users\VietTV1\Desktop\FGA_training\SPI
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\inc
 -I

@@ -36,13 +36,15 @@ void I2C_init_CLOCK(){
 
 void InitGpio(){
   //SDA
-  PC->DDR.BIT0=1;            //OUITPUT            
+  PC->DDR.BIT0=0;            //OUITPUT            
   PC->CR1.BIT0=1;            //PUSH-PULL
-  PC->CR2.BIT0=1;            //
+  PC->CR2.BIT0=0;            //
+  PC->ODR.BIT0 =0;
   //SCL
   PC->DDR.BIT1=0;            //OUITPUT            
   PC->CR1.BIT1=1;            //PUSH-PULL
-  PC->CR2.BIT1=1;            //
+  PC->CR2.BIT1=0;            //
+  PC->ODR.BIT1 = 0;
 
   PC->DDR.BIT7=1;
   PC->CR1.BIT7=1;
@@ -143,6 +145,10 @@ int main( void ){
   while(1){
       PC->ODR.BIT7 ^=1;
       //Delay();
+      I2C1_Start();
+      Delay();
+      I2C1_Stop();
+      
       
   }
   

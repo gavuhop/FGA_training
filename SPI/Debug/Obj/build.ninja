@@ -1,4 +1,4 @@
-#Generating source browse information for project I2C
+#Generating source browse information for project SPI
 
 
 #Abbreviations
@@ -20,10 +20,8 @@ rule browsedata
 
 
 #Build steps
-build I2C.pbi : index I2C.xcl
-build LCD.pbi : index LCD.xcl
 build main.pbi : index main.xcl
-build I2C.pbd : link I2C.pbi LCD.pbi main.pbi
-build I2C.pbw : browsedata I2C.pbd
+build SPI.pbd : link main.pbi
+build SPI.pbw : browsedata SPI.pbd
 
 
