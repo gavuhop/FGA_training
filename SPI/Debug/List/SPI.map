@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     14/Aug/2019  09:43:00
+# IAR ELF Linker V3.11.1.207 for STM8                     14/Aug/2019  10:44:41
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,14 +8,14 @@
 #    Map file     =  
 #        C:\Users\VietTV1\Desktop\FGA_training\SPI\Debug\List\SPI.map
 #    Command line =  
-#        -f C:\Users\VietTV1\AppData\Local\Temp\EW38C0.tmp
+#        -f C:\Users\VietTV1\AppData\Local\Temp\EW5B46.tmp
 #        (C:\Users\VietTV1\Desktop\FGA_training\SPI\Debug\Obj\main.o --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --no_out_extension -o
 #        C:\Users\VietTV1\Desktop\FGA_training\SPI\Debug\Exe\SPI.out --map
 #        C:\Users\VietTV1\Desktop\FGA_training\SPI\Debug\List\SPI.map --config
 #        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
-#        8.3_2\stm8\config\lnkstm8.icf" --config_def _CSTACK_SIZE=0x100
+#        8.3_2\stm8\config\lnkstm8l152c6.icf" --config_def _CSTACK_SIZE=0x100
 #        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
 #
 ###############################################################################
@@ -38,37 +38,42 @@ __rt_version               = 4
 ***
 
 "A0":  place at start of [0x000000-0x0000ff] { rw section .vregs };
-"A1":  place at end of [0x000000-0x0017ff] { block CSTACK };
+"A1":  place at end of [0x000000-0x0007ff] { block CSTACK };
 "A2":  place at start of [0x008000-0x00ffff] { block INTVEC };
 "P3":  place in [from 0x008000 to 0x00ffff] {
-          ro section .far.data_init, ro section .far_func.textrw_init,
-          ro section .huge.data_init, ro section .huge_func.textrw_init,
-          ro section .iar.init_table, ro section .init_array,
-          ro section .near.data_init, ro section .near.rodata,
-          ro section .near_func.text, ro section .near_func.textrw_init,
-          ro section .tiny.data_init, ro section .tiny.rodata_init };
+          ro section __DLIB_PERTHREAD_init, ro section .far.data_init,
+          ro section .far_func.textrw_init, ro section .huge.data_init,
+          ro section .huge_func.textrw_init, ro section .iar.init_table,
+          ro section .init_array, ro section .near.data_init,
+          ro section .near.rodata, ro section .near_func.text,
+          ro section .near_func.textrw_init, ro section .tiny.data_init,
+          ro section .tiny.rodata_init };
+"P4":  place in [from 0x008000 to 0x00ffff] {
+          ro section .far.rodata, ro section .far_func.text };
+"P5":  place in [from 0x008000 to 0x00ffff] {
+          ro section .huge.rodata, ro section .huge_func.text };
 do not initialize {
-   rw section .far.noinit, rw section .huge.noinit, rw section .near.noinit,
-   rw section .tiny.noinit, rw section .vregs };
+   rw section .eeprom.noinit, rw section .far.noinit, rw section .huge.noinit,
+   rw section .near.noinit, rw section .tiny.noinit, rw section .vregs };
 
 No sections matched the following patterns:
 
-  ro section .far.data_init          in "P3"
-  ro section .far.rodata             in "P4"
-  ro section .far_func.text          in "P4"
-  ro section .far_func.textrw_init   in "P3"
-  ro section .huge.data_init         in "P3"
-  ro section .huge.rodata            in "P5"
-  ro section .huge_func.text         in "P5"
-  ro section .huge_func.textrw_init  in "P3"
-  ro section .iar.init_table         in "P3"
-  ro section .init_array             in "P3"
-  ro section .near.data_init         in "P3"
-  ro section .near.rodata            in "P3"
-  ro section .near_func.textrw_init  in "P3"
-  ro section .tiny.data_init         in "P3"
-  ro section .tiny.rodata_init       in "P3"
-  rw section .eeprom.noinit          in "P6"
+  ro section .far.data_init          in "P3-P5"
+  ro section .far.rodata             in "P3-P5"
+  ro section .far_func.text          in "P3-P5"
+  ro section .far_func.textrw_init   in "P3-P5"
+  ro section .huge.data_init         in "P3-P5"
+  ro section .huge.rodata            in "P3-P5"
+  ro section .huge_func.text         in "P3-P5"
+  ro section .huge_func.textrw_init  in "P3-P5"
+  ro section .iar.init_table         in "P3-P5"
+  ro section .init_array             in "P3-P5"
+  ro section .near.data_init         in "P3-P5"
+  ro section .near.rodata            in "P3-P5"
+  ro section .near_func.textrw_init  in "P3-P5"
+  ro section .tiny.data_init         in "P3-P5"
+  ro section .tiny.rodata_init       in "P3-P5"
+  ro section __DLIB_PERTHREAD_init   in "P3-P5"
   rw section .far.bss                in "P2"
   rw section .far.data               in "P2"
   rw section .far.noinit             in "P2"
@@ -86,6 +91,10 @@ No sections matched the following patterns:
   rw section .tiny.data              in "P1"
   rw section .tiny.noinit            in "P1"
   rw section .tiny.rodata            in "P1"
+  rw section __DLIB_PERTHREAD        in "P2"
+  section .eeprom.data               in "P6-P8"
+  section .eeprom.noinit             in "P6-P8"
+  section .eeprom.rodata             in "P6-P8"
 
 
   Section          Kind      Address   Size  Object
@@ -95,28 +104,29 @@ No sections matched the following patterns:
                           - 0x00000c    0xc
 
 "A1":                                 0x100
-  CSTACK                    0x001700  0x100  <Block>
-    CSTACK         uninit   0x001700  0x100  <Block tail>
-                          - 0x001800  0x100
+  CSTACK                    0x000700  0x100  <Block>
+    CSTACK         uninit   0x000700  0x100  <Block tail>
+                          - 0x000800  0x100
 
 "A2":                                  0x80
   INTVEC                    0x008000   0x80  <Block>
     .intvec        const    0x008000   0x80  interrupt.o [4]
                           - 0x008080   0x80
 
-"P3":                                  0x67
-  .near_func.text  ro code  0x008080   0x18  vreg_util.o [4]
-  .near_func.text  ro code  0x008098   0x14  init.o [4]
-  .near_func.text  ro code  0x0080ac   0x14  __dbg_xxexit.o [3]
-  .near_func.text  ro code  0x0080c0   0x13  cstartup.o [4]
-  .near_func.text  ro code  0x0080d3    0x5  cexit.o [4]
-  .near_func.text  ro code  0x0080d8    0x3  interrupt.o [4]
-  .near_func.text  ro code  0x0080db    0x3  low_level_init.o [4]
-  .near_func.text  ro code  0x0080de    0x3  exit.o [4]
-  .near_func.text  ro code  0x0080e1    0x3  unhandled_exception.o [4]
-  .near_func.text  ro code  0x0080e4    0x2  main.o [1]
-  .near_func.text  ro code  0x0080e6    0x1  __dbg_break.o [3]
-                          - 0x0080e7   0x67
+"P3-P5":                               0xcd
+  .near_func.text  ro code  0x008080   0x52  main.o [1]
+  .near_func.text  ro code  0x0080d2   0x18  vreg_util.o [4]
+  .near_func.text  ro code  0x0080ea   0x16  main.o [1]
+  .near_func.text  ro code  0x008100   0x14  init.o [4]
+  .near_func.text  ro code  0x008114   0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x008128   0x13  cstartup.o [4]
+  .near_func.text  ro code  0x00813b    0x5  cexit.o [4]
+  .near_func.text  ro code  0x008140    0x3  interrupt.o [4]
+  .near_func.text  ro code  0x008143    0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x008146    0x3  exit.o [4]
+  .near_func.text  ro code  0x008149    0x3  unhandled_exception.o [4]
+  .near_func.text  ro code  0x00814c    0x1  __dbg_break.o [3]
+                          - 0x00814d   0xcd
 
 
 
@@ -127,9 +137,9 @@ No sections matched the following patterns:
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
 C:\Users\VietTV1\Desktop\FGA_training\SPI\Debug\Obj: [1]
-    main.o                       2
+    main.o                     104
     ------------------------------------------------
-    Total:                       2
+    Total:                     104
 
 command line: [2]
     ------------------------------------------------
@@ -156,7 +166,7 @@ dlstm8smn.a: [4]
 
     Linker created                               256
 ----------------------------------------------------
-    Grand Total:               103      128      268
+    Grand Total:               205      128      268
 
 
 *******************************************************************************
@@ -183,30 +193,31 @@ Entry                    Address  Size  Type      Object
 ?l0                     0x000000        Data  Gb  vregs.o [4]
 ?l1                     0x000004        Data  Gb  vregs.o [4]
 ?l2                     0x000008        Data  Gb  vregs.o [4]
-?push_w4                0x008080        Code  Gb  vreg_util.o [4]
+?push_w4                0x0080d2        Code  Gb  vreg_util.o [4]
 ?w0                     0x000000        Data  Gb  vregs.o [4]
 ?w1                     0x000002        Data  Gb  vregs.o [4]
 ?w2                     0x000004        Data  Gb  vregs.o [4]
 ?w3                     0x000006        Data  Gb  vregs.o [4]
 ?w4                     0x000008        Data  Gb  vregs.o [4]
 ?w5                     0x00000a        Data  Gb  vregs.o [4]
-CSTACK$$Base            0x001700         --   Gb  - Linker created -
-CSTACK$$Limit           0x001800         --   Gb  - Linker created -
+CSTACK$$Base            0x000700         --   Gb  - Linker created -
+CSTACK$$Limit           0x000800         --   Gb  - Linker created -
 INTVEC$$Base            0x008000         --   Gb  - Linker created -
 INTVEC$$Limit           0x008080         --   Gb  - Linker created -
 Region$$Table$$Base   0x00000000         --   Gb  - Linker created -
 Region$$Table$$Limit  0x00000000         --   Gb  - Linker created -
-__DebugBreak            0x0080e6   0x1  Code  Gb  __dbg_break.o [3]
-__exit                  0x0080ac  0x14  Code  Gb  __dbg_xxexit.o [3]
-__iar_data_init2        0x008098  0x14  Code  Gb  init.o [4]
-__iar_program_start     0x0080c0        Code  Gb  cstartup.o [4]
+__DebugBreak            0x00814c   0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x008114  0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_data_init2        0x008100  0x14  Code  Gb  init.o [4]
+__iar_program_start     0x008128        Code  Gb  cstartup.o [4]
 __iar_unhandled_exception
-                        0x0080e1        Code  Gb  unhandled_exception.o [4]
+                        0x008149        Code  Gb  unhandled_exception.o [4]
 __intvec                0x008000        Data  Gb  interrupt.o [4]
-__low_level_init        0x0080db   0x3  Code  Gb  low_level_init.o [4]
-_exit                   0x0080d3        Code  Gb  cexit.o [4]
-exit                    0x0080de   0x3  Code  Gb  exit.o [4]
-main                    0x0080e4   0x2  Code  Gb  main.o [1]
+__low_level_init        0x008143   0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x00813b        Code  Gb  cexit.o [4]
+clock                   0x0080ea  0x16  Code  Gb  main.o [1]
+exit                    0x008146   0x3  Code  Gb  exit.o [4]
+main                    0x008080  0x52  Code  Gb  main.o [1]
 
 
 [1] = C:\Users\VietTV1\Desktop\FGA_training\SPI\Debug\Obj
@@ -214,7 +225,7 @@ main                    0x0080e4   0x2  Code  Gb  main.o [1]
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a
 
-  103 bytes of readonly  code memory
+  205 bytes of readonly  code memory
   128 bytes of readonly  data memory
   268 bytes of readwrite data memory
 
