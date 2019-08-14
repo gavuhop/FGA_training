@@ -1635,6 +1635,12 @@
             <data />
         </settings>
     </configuration>
+    <group>
+        <name>lib</name>
+        <file>
+            <name>$PROJ_DIR$\SPI.h</name>
+        </file>
+    </group>
     <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>

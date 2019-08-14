@@ -12,5 +12,117 @@
     "name": "main",
     "origin": "project_file",
     "scope": null
+  },
+  {
+    "ID": "c:SPI.h@12@macro@SPI1_CR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI1_CR1",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\SPI\\SPI.h"
+    },
+    "name": "SPI1_CR1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:SPI.h@86@macro@SPI1_CR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI1_CR2",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\SPI\\SPI.h"
+    },
+    "name": "SPI1_CR2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:SPI.h@160@macro@SPI1_ICR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI1_ICR",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\SPI\\SPI.h"
+    },
+    "name": "SPI1_ICR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:SPI.h@242@macro@SPI1_SR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI1_SR",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\SPI\\SPI.h"
+    },
+    "name": "SPI1_SR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:SPI.h@313@macro@SPI1_DR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI1_DR",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\SPI\\SPI.h"
+    },
+    "name": "SPI1_DR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:SPI.h@382@macro@SPI1_CRCPR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI1_CRCPR",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\SPI\\SPI.h"
+    },
+    "name": "SPI1_CRCPR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:SPI.h@461@macro@SPI1_RXCRCR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI1_RXCRCR",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\SPI\\SPI.h"
+    },
+    "name": "SPI1_RXCRCR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:SPI.h@532@macro@SPI1_TXCRCR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI1_TXCRCR",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\VietTV1\\Desktop\\FGA_training\\SPI\\SPI.h"
+    },
+    "name": "SPI1_TXCRCR",
+    "origin": "user_include",
+    "scope": null
   }
 ]

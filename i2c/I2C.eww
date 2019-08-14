@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\I2C.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\SPI\SPI.ewp</path>
+    </project>
     <batchBuild />
 </workspace>
